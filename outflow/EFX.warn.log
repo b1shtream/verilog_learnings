@@ -1,0 +1,427 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:40:21
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:40:46
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 20:08:19
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 20:10:34
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 20:10:58
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 09:41:09
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 09:41:32
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:32:08
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:32:32
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:33:54
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:34:17
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:43:26
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:43:49
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:56:56
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:57:19
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)

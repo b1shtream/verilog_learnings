@@ -1,0 +1,1777 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 09, 2025 18:46:11
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] literal value 'd50000000 truncated to fit in 24 bits (VERI-1208) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:9)
+[EFX-0021 ERROR] Elaboration of module 'verilog_learnings' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 09:33:48
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0021 ERROR] Elaboration of module 'verilog_learnings' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 09:34:16
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 74560KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 74740KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 75728KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 75728KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 75904KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 75904KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 75904KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 75904KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 80292KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116348KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116348KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116496KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 117452KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 09:35:48
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 297272KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 09:38:42
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 301484KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 09:40:50
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] syntax error near 'and' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v:6)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'and' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v:6)
+[EFX-0010 VERI-ERROR] module 'add_gate' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v:8)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 09:41:36
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] syntax error near 'and' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v:6)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'and' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v:6)
+[EFX-0010 VERI-ERROR] module 'add_gate' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v:8)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 09:43:36
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v:13)
+[EFX-0010 VERI-ERROR] module 'top' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 09:50:11
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361792KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 15:50:36
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308536KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 16:30:21
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 75436KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 75616KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 76576KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 76576KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 76752KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 76752KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 76752KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 76752KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81004KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116828KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116828KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116976KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 117932KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:28:21
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119136KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119264KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119404KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 120268KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:28:45
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 120612KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 120612KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 120752KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 121616KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:29:50
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 117080KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 117080KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 117220KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 118084KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:30:17
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90168KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119188KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119188KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119328KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 120192KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:37:28
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'uart_tx' (VERI-1206) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:206)
+[EFX-0012 VERI-INFO] previous definition of design element 'uart_tx' is here (VERI-2142) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:103)
+[EFX-0010 VERI-ERROR] module 'half_adder' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:229)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:309)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:38:06
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'uart_tx' (VERI-1206) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:206)
+[EFX-0012 VERI-INFO] previous definition of design element 'uart_tx' is here (VERI-2142) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:103)
+[EFX-0010 VERI-ERROR] module 'half_adder' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:229)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:309)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:38:18
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'half_adder' (VERI-1206) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:126)
+[EFX-0012 VERI-INFO] previous definition of design element 'half_adder' is here (VERI-2142) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:206)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:38:43
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'half_adder' (VERI-1206) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:126)
+[EFX-0012 VERI-INFO] previous definition of design element 'half_adder' is here (VERI-2142) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:206)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:39:00
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'uart_tx' (VERI-1206) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:206)
+[EFX-0012 VERI-INFO] previous definition of design element 'uart_tx' is here (VERI-2142) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:103)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:39:09
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'uart_tx' (VERI-1206) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:206)
+[EFX-0012 VERI-INFO] previous definition of design element 'uart_tx' is here (VERI-2142) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:103)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:39:43
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84980KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119248KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119376KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 119516KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 120380KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:43:56
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82880KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116700KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116828KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 116968KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 117832KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:45:28
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314332KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 17:49:34
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322196KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 18:43:15
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 296256KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:20:16
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] syntax error near 'uart_tx' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:44)
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:52)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endmodule' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:52)
+[EFX-0010 VERI-ERROR] syntax error near 'parameter' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:65)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'parameter' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:65)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:66)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:66)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:68)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:69)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:70)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:73)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:73)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:75)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:75)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:77)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:77)
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:127)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:21:35
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] 'add_flag' is not declared (VERI-1128) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:31)
+[EFX-0010 VERI-ERROR] 'add_flag' is not declared (VERI-1128) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:33)
+[EFX-0010 VERI-ERROR] module 'adder' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:51)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:126)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:205)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:22:10
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 311892KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:35:20
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'verilog_learnings' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:2)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Mapping design "verilog_learnings"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "verilog_learnings" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2, ed: 6, lv: 1, pw: 3.96
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 314812KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:37:00
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:50)
+[EFX-0012 VERI-INFO] compiling module 'adder' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:1)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:54)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:171)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:36)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:175)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:255)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:44)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 111 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 5 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 4s CPU user time : 3s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 236, ed: 768, lv: 5, pw: 329.48
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 5s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 110 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 4s CPU user time : 8s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 317244KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	237
+[EFX-0000 INFO] EFX_FF          : 	110
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 20:08:09
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:50)
+[EFX-0012 VERI-INFO] compiling module 'adder' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:1)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:54)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:171)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:36)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:175)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:255)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:44)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 111 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 5 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 3s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 236, ed: 768, lv: 5, pw: 329.48
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s CPU user time : 5s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 110 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 8s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 325348KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	237
+[EFX-0000 INFO] EFX_FF          : 	110
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 20:10:25
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:50)
+[EFX-0012 VERI-INFO] compiling module 'adder' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:1)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:54)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:171)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:36)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:175)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:255)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:44)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 111 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 5 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 3s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 236, ed: 768, lv: 5, pw: 329.48
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s CPU user time : 5s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 110 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 8s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 330628KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	237
+[EFX-0000 INFO] EFX_FF          : 	110
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 09:41:01
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:50)
+[EFX-0012 VERI-INFO] compiling module 'adder' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:1)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:54)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:171)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:36)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:175)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:255)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:44)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77656KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77656KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 78728KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 78728KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 79040KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 79040KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 79040KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 79040KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 79040KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 111 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 5 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 3s CPU sys time : 0s MEM : 96548KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 97484KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 236, ed: 768, lv: 5, pw: 329.48
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 128728KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 128896KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 110 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 7s CPU sys time : 0s MEM : 129176KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 129792KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	237
+[EFX-0000 INFO] EFX_FF          : 	110
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:31:59
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:49)
+[EFX-0012 VERI-INFO] compiling module 'adder' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:1)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:54)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:171)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:36)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:175)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:255)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:44)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 79804KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 79932KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 80696KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 80696KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81112KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81112KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81112KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81112KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81112KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 111 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 5 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 3s CPU sys time : 0s MEM : 92940KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 93784KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 236, ed: 768, lv: 5, pw: 329.48
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 131012KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 131140KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 110 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 7s CPU sys time : 0s MEM : 131552KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 132364KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	237
+[EFX-0000 INFO] EFX_FF          : 	110
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:43:18
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:49)
+[EFX-0012 VERI-INFO] compiling module 'adder' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:1)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:54)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:171)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:36)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:175)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:255)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:44)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87028KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 111 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 5 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 3s CPU sys time : 0s MEM : 94000KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 94808KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 236, ed: 768, lv: 5, pw: 329.48
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 128572KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 128704KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 110 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 7s CPU sys time : 0s MEM : 128892KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 129640KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	237
+[EFX-0000 INFO] EFX_FF          : 	110
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:56:47
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:23)
+[EFX-0011 VERI-WARNING] port 'uart_config_data' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:49)
+[EFX-0012 VERI-INFO] compiling module 'adder' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:1)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:54)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:171)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:74)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:36)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:175)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:255)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0011 VERI-WARNING] input port 'uart_config_data[31]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:44)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 111 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 5 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 3s CPU sys time : 0s MEM : 91364KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 92172KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 236, ed: 768, lv: 5, pw: 329.48
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 124256KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 124388KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 110 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 7s CPU sys time : 0s MEM : 124960KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 125832KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	237
+[EFX-0000 INFO] EFX_FF          : 	110
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

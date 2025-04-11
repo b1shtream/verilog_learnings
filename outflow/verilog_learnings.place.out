@@ -1,0 +1,205 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2024.2.294 
+           Compiled: Nov 14 2024.
+           
+           Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+           
+INFO     : Running Placement and Routing for Family "Trion", Device "T120F324" ...
+           
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.dbg.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+WARNING  : Input/inout port jtag_inst1_DRCK is unconnected and will be removed. [VDB-8003]
+WARNING  : Input/inout port jtag_inst1_RUNTEST is unconnected and will be removed. [VDB-8003]
+WARNING  : Input/inout port jtag_inst1_TMS is unconnected and will be removed. [VDB-8003]
+INFO     : Found 3 warnings in the post-synthesis netlist.
+INFO     : VDB Netlist Checker took 0.00769924 seconds.
+INFO     : 	VDB Netlist Checker took 0.02 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 200.828 MB, end = 225.44 MB, delta = 24.612 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 123.008 MB, end = 123.176 MB, delta = 0.168 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 123.176 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : logical_block #4(jtag_inst1_DRCK) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #6(jtag_inst1_RUNTEST) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #11(jtag_inst1_TMS) has no fanout.
+INFO     : Removing input.
+INFO     : Pass 0: Swept away 3 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 3 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Sweept away 3 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.dbg.vdb".
+INFO     : Netlist pre-processing took 0.032599 seconds.
+INFO     : 	Netlist pre-processing took 0.03 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 200.828 MB, end = 225.44 MB, delta = 24.612 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 122.344 MB, end = 123.364 MB, delta = 1.02 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 123.364 MB
+           ***** Ending stage netlist pre-processing *****
+           
+           ***** Beginning stage pre-packing ... *****
+           ***** Ending stage pre-packing *****
+           
+           ***** Beginning stage packing ... *****
+INFO     : Generate proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.001498 seconds
+INFO     : Creating IO constraints file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.io_place'
+INFO     : Packing took 0.0113956 seconds.
+INFO     : 	Packing took 0.01 seconds (approximately) in total CPU time.
+INFO     : Packing virtual memory usage: begin = 225.44 MB, end = 225.44 MB, delta = 0 MB
+INFO     : Packing resident set memory usage: begin = 123.9 MB, end = 124.4 MB, delta = 0.5 MB
+INFO     : 	Packing peak resident set memory usage = 124.4 MB
+           ***** Ending stage packing *****
+           
+INFO     : Read proto netlist file /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto
+INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.000438 seconds
+INFO     : Setup net and block data structure took 0.031546 seconds
+           ***** Beginning stage packed netlist loading ... *****
+INFO     : Read proto netlist file /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto
+INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.000584 seconds
+INFO     : Setup net and block data structure took 0.025903 seconds
+INFO     : Packed netlist loading took 0.0270386 seconds.
+INFO     : 	Packed netlist loading took 0.02 seconds (approximately) in total CPU time.
+INFO     : Packed netlist loading virtual memory usage: begin = 225.44 MB, end = 225.44 MB, delta = 0 MB
+INFO     : Packed netlist loading resident set memory usage: begin = 124.552 MB, end = 124.68 MB, delta = 0.128 MB
+INFO     : 	Packed netlist loading peak resident set memory usage = 124.68 MB
+           ***** Ending stage packed netlist loading *****
+           
+           ***** Beginning stage pre-placement ... *****
+           
+           ***** Ending stage pre-placement *****
+           
+WARNING  : [SDC /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/adder_cons.sdc:2] No clock groups specified, please type 'set_clock_groups -help' for usage info
+WARNING  : [SDC /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/adder_cons.sdc:2] Unable to run 'set_clock_groups' constraint due to warnings found
+INFO     : SDC file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/adder_cons.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+           ***** Beginning stage initial placement ... *****
+INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
+INFO     : Writing IO placement constraints to "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.io"
+INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.io'.
+INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.io_place'.
+WARNING  : Clock source jtag_inst1_TCK does not use a dedicated clock pad, so extra clock insertion delay is added
+           ***** Ending stage initial placement *****
+           
+           ***** Beginning stage placement ... *****
+INFO     : Create /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings_after_qp.qdelay
+INFO     : QPLACER STATIC DB USAGE DISABLED
+INFO     : Starting Global Placer with 6 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1    25409778            5542         5.2%
+INFO     :           2    26479072            5542         7.6%
+INFO     :           3    28278898            5066         9.5%
+INFO     :           4    22076192            5158        11.6%
+INFO     :           5    10061206            5367        13.0%
+INFO     :           6     4418978            4784        18.2%
+INFO     :           7     3106870            4402        26.6%
+INFO     :           8     2031685            3289        36.7%
+INFO     :           9     1907496            3248        51.3%
+INFO     :          10     1737404            2753        55.4%
+INFO     :          11     1707009            3141        58.5%
+INFO     :          12     1693861            2900        59.6%
+INFO     :          13     1725717            2564        60.9%
+INFO     :          14     1678805            2405        62.3%
+INFO     :          15     1683983            3321        64.2%
+INFO     :          16     1661244            3304        65.3%
+INFO     :          17     1681685            3213        66.1%
+INFO     :          18     1660217            2898        67.1%
+INFO     :          19     1630999            2974        68.7%
+INFO     :          20     1613901            2689        69.9%
+INFO     :          21     1624915            2553        70.5%
+INFO     :          22     1604816            2598        72.6%
+INFO     :          23     1616223            2857        73.4%
+INFO     :          24     1623243            2451        73.4%
+INFO     :          25     1619173            2601        75.3%
+INFO     :          26     1629262            2065        75.3%
+INFO     :          27     1625411            2041        75.6%
+INFO     :          28     1615305            2054        76.6%
+INFO     :          29     1619358            2127        77.6%
+INFO     :          30     1617429            2500        78.2%
+INFO     :          31     1607589            2381        78.5%
+INFO     :          32     1636909            2486        79.0%
+INFO     :          33     1621092            2298        79.8%
+INFO     :          34     1611874            2430        81.6%
+INFO     :          35     1582577            1840        81.6%
+INFO     :          36     1553291            2512        83.4%
+INFO     :          37     1561592            1969        86.0%
+INFO     :          38     1578068             649        86.9%
+INFO     :          39     1596483            1537        88.0%
+INFO     :          40     1597290            1868        88.1%
+INFO     :          41     1609840            2261        88.9%
+INFO     :          42     1613374            2252        89.0%
+INFO     :          43     1601050            2435        90.2%
+INFO     :          44     1626249            1889        90.2%
+INFO     :          45     1626093            1743        91.1%
+INFO     :          46     1618806            1593        91.9%
+INFO     :          47     1637694            1980        91.9%
+INFO     :          48     1636045            2144        92.6%
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0       22175            8980        30.0
+INFO     :           1       16675            7711        29.2
+INFO     :           2       12415            7660        28.3
+INFO     :           3       11052            7208        27.1
+INFO     :           4       10664            7148        25.8
+INFO     :           5       10213            6739        24.2
+INFO     :           6        9925            6670        22.8
+INFO     :           7        9634            6503        21.2
+INFO     :           8        9442            6981        19.9
+INFO     :           9        9277            6950        18.5
+INFO     :          10        9037            6715        17.2
+INFO     :          11        8800            6694        16.0
+INFO     :          12        8586            6626        14.9
+INFO     :          13        8643            6919        13.8
+INFO     :          14        8569            7080        12.8
+INFO     :          15        8311            7532        11.8
+INFO     :          16        8261            6938        11.0
+INFO     :          17        8105            7434        10.1
+INFO     :          18        8104            6791         9.4
+INFO     :          19        7977            6696         8.7
+INFO     :          20        7902            6836         8.0
+INFO     :          21        7721            6655         7.4
+INFO     :          22        7595            6818         6.9
+INFO     :          23        7464            7128         6.3
+INFO     :          24        7432            7105         5.8
+INFO     :          25        7313            7350         5.4
+INFO     :          26        7293            7350         5.0
+INFO     :          27        7260            7434         4.5
+INFO     :          28        7217            7359         4.2
+INFO     :          29        7132            7203         3.8
+INFO     :          30        7073            7203         3.5
+INFO     :          31        7063            7203         3.2
+INFO     :          32        6964            7830         2.9
+INFO     : Counted delay computer calls: 51085
+Generate /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings_after_qp.qdelay
+INFO     : Placement successful: 1763 cells are placed
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.110743 at 0,0
+INFO     : Congestion-weighted HPWL per net: 381.373
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Checks is successful
+INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.qplace'.
+INFO     : Finished Realigning Types (339 blocks needed type change)
+INFO     : Completed placement consistency check successfully.
+INFO     : Successfully created FPGA place file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.place'
+INFO     : Placement took 6.70839 seconds.
+INFO     : 	Placement took 9.76 seconds (approximately) in total CPU time.
+INFO     : Placement virtual memory usage: begin = 225.44 MB, end = 662.464 MB, delta = 437.024 MB
+INFO     : Placement resident set memory usage: begin = 125.876 MB, end = 546.64 MB, delta = 420.764 MB
+INFO     : 	Placement peak resident set memory usage = 546.64 MB
+           ***** Ending stage placement *****
+           

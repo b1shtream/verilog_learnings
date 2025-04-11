@@ -1,0 +1,1581 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:40:21
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4380)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4749)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4750)
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01101101000011110100110000010000111011111001000000010011011000000101101011011000010100000110011010111010110101010100110000,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:481)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:182)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b010,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5684)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5809)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01001)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4826)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01010)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4568)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4518)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:391)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:260)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 1s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01101101000011110100110000010000111011111001000000010011011000000101101011011000010100000110011010111010110101010100110000,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01101101000011110100110000010000111011111001000000010011011000000101101011011000010100000110011010111010110101010100110000,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 469 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 241 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 230 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 9s CPU user time : 9s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 321288KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 937, ed: 3005, lv: 8, pw: 1408.45
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 15s CPU sys time : 2s MEM : 321288KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 15s CPU sys time : 2s MEM : 321288KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 469 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 241 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 21s CPU sys time : 3s MEM : 321288KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	155
+[EFX-0000 INFO] EFX_LUT4        : 	923
+[EFX-0000 INFO] EFX_FF          : 	701
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 19:40:46
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 462 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk' with 350 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 9 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 236, ed: 770, lv: 5, pw: 1304.77
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 8s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 462 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 349 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 7s CPU user time : 14s CPU sys time : 0s MEM : 321392KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 14s CPU sys time : 1s MEM : 321392KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	154
+[EFX-0000 INFO] EFX_LUT4        : 	1160
+[EFX-0000 INFO] EFX_FF          : 	811
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 20:08:19
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4380)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4749)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4750)
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b11110111110111010001001100010010110100011001010001000010111010011010111001011111010110001110110110100011000111001010001101111110,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:481)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:182)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b010,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5684)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5809)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01001)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4826)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01010)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4568)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4518)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:391)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:260)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b11110111110111010001001100010010110100011001010001000010111010011010111001011111010110001110110110100011000111001010001101111110,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b11110111110111010001001100010010110100011001010001000010111010011010111001011111010110001110110110100011000111001010001101111110,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 469 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 241 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 229 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 8s CPU user time : 9s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 325388KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 948, ed: 3111, lv: 8, pw: 1435.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 15s CPU sys time : 2s MEM : 325388KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 15s CPU sys time : 2s MEM : 325388KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 469 loads will be considered for retiming optimization.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 20:10:34
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4380)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4749)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4750)
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01000100000111000001000110001101100011100010101001001101011101010100111100100011011010001101101111100100100011001100110100111,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:481)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:182)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b010,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5684)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5809)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01001)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4826)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01010)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4568)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4518)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:391)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:260)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01000100000111000001000110001101100011100010101001001101011101010100111100100011011010001101101111100100100011001100110100111,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01000100000111000001000110001101100011100010101001001101011101010100111100100011011010001101101111100100100011001100110100111,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 469 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 241 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 230 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 8s CPU user time : 8s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 330856KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 969, ed: 3282, lv: 7, pw: 1457.68
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 14s CPU sys time : 2s MEM : 330856KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 14s CPU sys time : 2s MEM : 330856KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 469 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 241 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 20s CPU sys time : 2s MEM : 330856KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	155
+[EFX-0000 INFO] EFX_LUT4        : 	955
+[EFX-0000 INFO] EFX_FF          : 	701
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 10, 2025 20:10:58
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 462 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk' with 350 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 15 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 235, ed: 762, lv: 5, pw: 1317.98
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s CPU user time : 8s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 331068KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 462 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 349 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 14s CPU sys time : 1s MEM : 331068KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 14s CPU sys time : 1s MEM : 331068KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	153
+[EFX-0000 INFO] EFX_LUT4        : 	1189
+[EFX-0000 INFO] EFX_FF          : 	811
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 09:41:09
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4380)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4749)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4750)
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b10110011110111010000110010110010000100101110101001001000011011001011100011110100010101001110001100000000100001110011100101010011,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:481)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:182)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b010,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5684)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5809)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01001)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4826)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01010)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4568)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4518)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:391)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:260)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93720KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93720KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94680KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94680KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94680KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94680KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94808KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94808KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95216KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95216KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95216KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b10110011110111010000110010110010000100101110101001001000011011001011100011110100010101001110001100000000100001110011100101010011,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b10110011110111010000110010110010000100101110101001001000011011001011100011110100010101001110001100000000100001110011100101010011,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 96496KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 96496KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 97452KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 97836KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 98020KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 98020KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 98020KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 469 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 241 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 229 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 126724KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 127092KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 974, ed: 3298, lv: 7, pw: 1465.53
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 14s CPU sys time : 2s MEM : 152932KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 14s CPU sys time : 2s MEM : 153064KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 469 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 241 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 7s CPU user time : 20s CPU sys time : 2s MEM : 153448KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	155
+[EFX-0000 INFO] EFX_LUT4        : 	960
+[EFX-0000 INFO] EFX_FF          : 	701
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 09:41:32
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82240KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82428KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83576KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83704KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83704KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86320KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86448KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86448KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86576KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86576KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 462 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk' with 350 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 10 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 8s CPU user time : 7s CPU sys time : 0s MEM : 117668KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 118348KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 234, ed: 767, lv: 5, pw: 1329.91
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 8s CPU sys time : 0s MEM : 144100KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 144232KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 462 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 349 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 14s CPU sys time : 0s MEM : 144804KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 14s CPU sys time : 0s MEM : 145596KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	153
+[EFX-0000 INFO] EFX_LUT4        : 	1195
+[EFX-0000 INFO] EFX_FF          : 	811
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:32:08
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4380)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4749)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4750)
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01011001110010001110000011100001010000000101011001000011111001111010101100100101011010010010011111001000011010111001010110101000,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:481)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:182)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b010,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5684)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5809)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01001)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4826)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01010)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4568)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4518)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:391)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:260)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93480KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93612KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94372KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94372KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94372KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94372KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94684KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94684KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95148KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95148KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95148KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01011001110010001110000011100001010000000101011001000011111001111010101100100101011010010010011111001000011010111001010110101000,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01011001110010001110000011100001010000000101011001000011111001111010101100100101011010010010011111001000011010111001010110101000,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 96428KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 96428KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 97328KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 97584KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 97712KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 97712KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 97840KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 469 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 241 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 229 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 121424KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 121792KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 958, ed: 3195, lv: 7, pw: 1427.10
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 13s CPU sys time : 2s MEM : 148096KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 13s CPU sys time : 2s MEM : 148232KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 469 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 241 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 20s CPU sys time : 2s MEM : 149296KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	155
+[EFX-0000 INFO] EFX_LUT4        : 	941
+[EFX-0000 INFO] EFX_FF          : 	701
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:32:32
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 80252KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 80252KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81524KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81524KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81524KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84144KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84272KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84460KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84460KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84460KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 462 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk' with 350 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 12 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 112476KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 113028KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 241, ed: 777, lv: 5, pw: 1309.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s CPU user time : 8s CPU sys time : 0s MEM : 140344KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 140664KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 462 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 349 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 14s CPU sys time : 1s MEM : 140852KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 14s CPU sys time : 1s MEM : 141600KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	153
+[EFX-0000 INFO] EFX_LUT4        : 	1183
+[EFX-0000 INFO] EFX_FF          : 	811
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:33:54
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4380)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4749)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4750)
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01111111001110101111101001111000100001000001101000110010101101010111010100010000111011110111000011000011000101100011111010011,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:481)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:182)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b010,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5684)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5809)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01001)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4826)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01010)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4568)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4518)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:391)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:260)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 91048KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 91176KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92008KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92008KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92008KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92008KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92136KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92136KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92664KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92664KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 92664KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01111111001110101111101001111000100001000001101000110010101101010111010100010000111011110111000011000011000101100011111010011,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01111111001110101111101001111000100001000001101000110010101101010111010100010000111011110111000011000011000101100011111010011,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93944KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93944KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 95284KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 95540KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 95540KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 95668KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 95668KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 469 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 241 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 230 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 119480KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 119848KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 964, ed: 3251, lv: 7, pw: 1457.28
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 14s CPU sys time : 2s MEM : 146976KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 14s CPU sys time : 2s MEM : 147144KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 469 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 241 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 7s CPU user time : 20s CPU sys time : 2s MEM : 147680KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	155
+[EFX-0000 INFO] EFX_LUT4        : 	950
+[EFX-0000 INFO] EFX_FF          : 	701
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:34:17
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 80720KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 80720KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81924KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81924KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 81924KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84544KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84672KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84856KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84984KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 84984KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 462 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk' with 350 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 14 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 113280KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 113832KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 237, ed: 782, lv: 5, pw: 1327.27
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s CPU user time : 8s CPU sys time : 0s MEM : 140624KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 140948KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 462 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 349 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 14s CPU sys time : 0s MEM : 141520KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 14s CPU sys time : 0s MEM : 142300KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	153
+[EFX-0000 INFO] EFX_LUT4        : 	1187
+[EFX-0000 INFO] EFX_FF          : 	811
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:43:26
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4380)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4749)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4750)
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b10001111001010000011010010111000100000001011111101001101111000111000111011000001110000010000000011101100010101100011001011100111,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:481)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:182)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b010,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5684)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5809)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01001)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4826)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01010)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4568)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4518)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:391)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:260)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90880KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 90880KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 91640KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 91640KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 91640KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 91640KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 91768KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 91768KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92296KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92296KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 92296KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b10001111001010000011010010111000100000001011111101001101111000111000111011000001110000010000000011101100010101100011001011100111,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b10001111001010000011010010111000100000001011111101001101111000111000111011000001110000010000000011101100010101100011001011100111,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93704KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93704KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 1s CPU user time : 1s CPU sys time : 0s MEM : 94660KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 94788KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 94788KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 94788KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 94788KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 469 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 241 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 230 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 118756KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 119124KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 967, ed: 3113, lv: 8, pw: 1439.44
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 13s CPU sys time : 2s MEM : 150728KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 13s CPU sys time : 2s MEM : 150896KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 469 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 241 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 20s CPU sys time : 2s MEM : 151304KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	155
+[EFX-0000 INFO] EFX_LUT4        : 	953
+[EFX-0000 INFO] EFX_FF          : 	701
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:43:49
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87212KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 462 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk' with 350 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 13 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 112808KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 113360KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 242, ed: 790, lv: 5, pw: 1323.18
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s CPU user time : 8s CPU sys time : 0s MEM : 143144KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 143468KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 462 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 349 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 14s CPU sys time : 1s MEM : 143912KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 14s CPU sys time : 1s MEM : 144692KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	153
+[EFX-0000 INFO] EFX_LUT4        : 	1195
+[EFX-0000 INFO] EFX_FF          : 	811
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:56:56
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/trinity/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4380)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4749)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4750)
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:108)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01010111000001010100000001110110000101110111001001000100100101011001100110110101001111010011111111011000110101110100011101000110,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:481)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:182)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5479)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b010,PIPE=1)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5684)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5809)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01001)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4826)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01010)' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4568)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4518)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:391)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:260)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5485)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5486)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:5696)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+[EFX-0200 WARNING] Removing redundant signal : din[9]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4581)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4862)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:4863)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:3446)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:273)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:86)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 93896KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94024KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94728KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94728KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94728KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b010,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94728KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94984KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 94984KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95512KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01010)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95512KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01001)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 95512KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01010111000001010100000001110110000101110111001001000100100101011001100110110101001111010011111111011000110101110100011101000110,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b01010111000001010100000001110110000101110111001001000100100101011001100110110101001111010011111111011000110101110100011101000110,PROBE1_WIDTH=8,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 96792KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 96792KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 97876KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 98132KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 98132KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 98132KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 98132KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 469 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 241 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 229 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 8s CPU user time : 7s CPU sys time : 0s MEM : 121924KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 122292KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 968, ed: 3109, lv: 8, pw: 1443.06
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 13s CPU sys time : 2s MEM : 150744KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 13s CPU sys time : 2s MEM : 150912KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 469 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 241 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 20s CPU sys time : 2s MEM : 151100KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:20)
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	155
+[EFX-0000 INFO] EFX_LUT4        : 	954
+[EFX-0000 INFO] EFX_FF          : 	701
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 12:57:19
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86776KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86776KB)
+[EFX-0000 INFO] ... Mapping design "adder"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86776KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86776KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86776KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87428KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87556KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87556KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87684KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 87684KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 462 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk' with 350 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 10 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s CPU user time : 7s CPU sys time : 0s MEM : 115380KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 116060KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 249, ed: 815, lv: 5, pw: 1333.62
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 8s CPU sys time : 0s MEM : 141836KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 142160KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 462 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 349 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 7s CPU user time : 14s CPU sys time : 1s MEM : 142732KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 14s CPU sys time : 1s MEM : 143528KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	153
+[EFX-0000 INFO] EFX_LUT4        : 	1201
+[EFX-0000 INFO] EFX_FF          : 	811
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 

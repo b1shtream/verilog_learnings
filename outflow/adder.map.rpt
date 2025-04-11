@@ -1,0 +1,306 @@
+Efinity Synthesis report for project adder
+Version: 2024.2.294
+Generated at: Apr 11, 2025 12:57:19
+Copyright (C) 2013 - 2024  All rights reserved.
+
+Top-level Entity Name : adder
+
+family : Trion
+device : T120F324
+project : adder
+root : adder
+I,include : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings
+output-dir : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow
+work-dir : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg
+write-efx-verilog : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/verilog_learnings.dbg.map.v
+binary-db : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/verilog_learnings.dbg.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+
+File List:
+
+/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.elab.vdb (vdb-file) 
+/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.post.vdb (vdb-file) 
+
+### ### Report Section Start ### ###
+
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 46
+Total number of FFs with enable signals: 685
+CE signal <rx_ready>, number of controlling flip flops: 9
+CE signal <add_flag>, number of controlling flip flops: 6
+CE signal <uart_rx_inst/n1220>, number of controlling flip flops: 1
+CE signal <ceg_net14>, number of controlling flip flops: 32
+CE signal <ceg_net32>, number of controlling flip flops: 1
+CE signal <ceg_net26>, number of controlling flip flops: 3
+CE signal <uart_rx_inst/n1199>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n1202>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n1205>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n1208>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n1211>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n1214>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n1217>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n1161>, number of controlling flip flops: 1
+CE signal <uart_tx_inst/r_SM_Main[2]>, number of controlling flip flops: 33
+CE signal <ceg_net28>, number of controlling flip flops: 3
+CE signal <uart_tx_inst/n1032>, number of controlling flip flops: 1
+CE signal <uart_tx_inst/n1224>, number of controlling flip flops: 5
+CE signal <edb_top_inst/ceg_net2>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n971>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la0/n1055>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n1572>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n1705>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la0/addr_ct_en>, number of controlling flip flops: 25
+CE signal <edb_top_inst/la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net5>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net8>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n2558>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3447>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3462>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n3660>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/ceg_net11>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/tu_trigger>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/trigger_skipper_n/n468>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/n335>, number of controlling flip flops: 11
+CE signal <edb_top_inst/la0/la_biu_inst/n1248>, number of controlling flip flops: 11
+CE signal <edb_top_inst/ceg_net18>, number of controlling flip flops: 1
+CE signal <edb_top_inst/ceg_net24>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 10
+CE signal <edb_top_inst/la0/la_biu_inst/n1839>, number of controlling flip flops: 10
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_push>, number of controlling flip flops: 10
+CE signal <edb_top_inst/~ceg_net27>, number of controlling flip flops: 22
+CE signal <edb_top_inst/debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <edb_top_inst/debug_hub_inst/n95>, number of controlling flip flops: 82
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 12
+Total number of FFs with set/reset signals: 612
+SR signal <uart_rx_inst/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <uart_rx_inst/n1180>, number of controlling flip flops: 1
+SR signal <uart_tx_inst/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <uart_tx_inst/n1206>, number of controlling flip flops: 1
+SR signal <jtag_inst1_RESET>, number of controlling flip flops: 462
+SR signal <edb_top_inst/la0/n2545>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la0/ts_resetn>, number of controlling flip flops: 65
+SR signal <edb_top_inst/la0/la_resetn>, number of controlling flip flops: 23
+SR signal <edb_top_inst/la0/la_biu_inst/n1832>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la0/n5970>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 21
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/n672>, number of controlling flip flops: 31
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i31
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i30
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i29
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i28
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i27
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i26
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i24
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i23
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i22
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i21
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i20
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i19
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i18
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i17
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i16
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i15
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i14
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i13
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i12
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i11
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i10
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i7
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i4
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" removed instance : uart_tx_inst/dff_43/i2
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (288)" representative instance : uart_tx_inst/dff_43/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i31
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i30
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i29
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i28
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i27
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i26
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i24
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i23
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i22
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i21
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i20
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i19
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i18
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i17
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i16
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i15
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i14
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i13
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i12
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i11
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i10
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i7
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" removed instance : uart_rx_inst/dff_75/i4
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v (168)" representative instance : uart_rx_inst/dff_75/i32
+FF Output: uart_rx_inst/r_config_data[0](=1)
+FF Output: uart_rx_inst/r_config_data[2](=1)
+FF Output: uart_rx_inst/r_config_data[4](=1)
+FF Output: uart_rx_inst/r_config_data[5](=1)
+FF Output: uart_rx_inst/r_config_data[7](=1)
+FF Output: uart_rx_inst/r_config_data[8](=1)
+FF Output: uart_tx_inst/r_config_data[0](=1)
+FF Output: uart_tx_inst/r_Tx_Data[0](=0)
+FF Output: uart_tx_inst/r_config_data[2](=1)
+FF Output: uart_tx_inst/r_config_data[4](=1)
+FF Output: uart_tx_inst/r_config_data[5](=1)
+FF Output: uart_tx_inst/r_config_data[7](=1)
+FF Output: uart_tx_inst/r_config_data[8](=1)
+FF Output: uart_tx_inst/r_Tx_Data[1](=0)
+FF Output: uart_tx_inst/r_Tx_Data[2](=0)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+adder:adder                                                      811(15)      153(0)     1201(5)      2(0)      0(0)
+ +uart_rx_inst:uart_rx                                            50(50)        0(0)    152(152)      0(0)      0(0)
+ +uart_tx_inst:uart_tx                                            45(45)        0(0)      93(93)      0(0)      0(0)
+ +edb_top_inst:edb_top                                          701(701)    153(153)    951(951)      2(2)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+          Clock     Flip-Flops   Memory Ports    Multipliers
+          -----     ----------   ------------    -----------
+            clk            349              4              0
+ jtag_inst1_TCK            462              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	12
+OUTPUT PORTS    : 	2
+
+EFX_ADD         : 	153
+EFX_LUT4        : 	1201
+   1-2  Inputs  : 	318
+   3    Inputs  : 	292
+   4    Inputs  : 	591
+EFX_FF          : 	811
+EFX_RAM_5K      : 	2
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 15s
+Elapsed synthesis time : 15s

@@ -1,0 +1,67 @@
+DEBUG    : Initialising Efx::ConcurrencyControl with 6 threads [Debug]
+INFO     : --max_threads set to 6 
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Deleting any pre-existing troute trace files
+INFO     : --max_threads set to 6 
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.dbg.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.00644369 seconds.
+INFO     : 	VDB Netlist Checker took 0.01 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 610.712 MB, end = 635.324 MB, delta = 24.612 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 239.236 MB, end = 239.532 MB, delta = 0.296 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 239.532 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : logical_block #4(jtag_inst1_DRCK) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #6(jtag_inst1_RUNTEST) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #11(jtag_inst1_TMS) has no fanout.
+INFO     : Removing input.
+INFO     : Pass 0: Swept away 3 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 3 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Sweept away 3 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.dbg.vdb".
+INFO     : Netlist pre-processing took 0.0393506 seconds.
+INFO     : 	Netlist pre-processing took 0.05 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 610.712 MB, end = 635.324 MB, delta = 24.612 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 239.108 MB, end = 239.684 MB, delta = 0.576 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 239.684 MB
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto
+INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.000854 seconds
+INFO     : Setup net and block data structure took 0.034346 seconds
+INFO     : Run checks after load placement.
+WARNING  : Clock source jtag_inst1_TCK does not use a dedicated clock pad, so extra clock insertion delay is added
+INFO     : Read ipin pattern from /home/trinity/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xml
+INFO     : Finished parsing ipin pattern file '/home/trinity/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xdb'.
+INFO     : Finished parsing switch_block file '/home/trinity/Downloads/efinity/2024.2/arch/./routing/sb_connectivity_subset.xdb'.
+INFO     : BuildGraph process took 13.6554 seconds.
+INFO     : 	BuildGraph process took 13.68 seconds (approximately) in total CPU time.
+INFO     : BuildGraph process virtual memory usage: begin = 635.324 MB, end = 2460.62 MB, delta = 1825.3 MB
+INFO     : BuildGraph process resident set memory usage: begin = 241.24 MB, end = 2062.8 MB, delta = 1821.56 MB
+INFO     : 	BuildGraph process peak resident set memory usage = 2062.8 MB
+INFO     : check rr_graph process took 0.457737 seconds.
+INFO     : 	check rr_graph process took 0.46 seconds (approximately) in total CPU time.
+INFO     : check rr_graph process virtual memory usage: begin = 2616.57 MB, end = 2668.56 MB, delta = 51.984 MB
+INFO     : check rr_graph process resident set memory usage: begin = 2218.69 MB, end = 2270.91 MB, delta = 52.22 MB
+INFO     : 	check rr_graph process peak resident set memory usage = 2270.91 MB
+INFO     : Generated 6653714 RR nodes and 25232815 RR edges
+INFO     : This design has 0 global control net(s). See /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.pnr.rpt for details.
+INFO     : Reading route file, /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.route
+INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
+WARNING  : [SDC /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/adder_cons.sdc:2] No clock groups specified, please type 'set_clock_groups -help' for usage info
+WARNING  : [SDC /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/adder_cons.sdc:2] Unable to run 'set_clock_groups' constraint due to warnings found
+INFO     : SDC file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/adder_cons.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
