@@ -14,8 +14,8 @@ INFO     : 	io_weak_pullup                           = on
 INFO     : 	enable_remote_update                     = off
 INFO     : 	release_tri_then_reset                   = on
 INFO     : Finished generating "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.hex"
-INFO     : Efinix Bitstream Generator took 2.27261 seconds.
-INFO     : 	Efinix Bitstream Generator took 2 seconds (approximately) in total CPU time.
-INFO     : Efinix Bitstream Generator virtual memory usage: begin = 34.98 MB, end = 332.644 MB, delta = 297.664 MB
-INFO     : Efinix Bitstream Generator resident set memory usage: begin = 18.724 MB, end = 285.78 MB, delta = 267.056 MB
-INFO     : 	Efinix Bitstream Generator peak resident set memory usage = 285.78 MB
+INFO     : Efinix Bitstream Generator took 2.90775 seconds.
+INFO     : 	Efinix Bitstream Generator took 2.06 seconds (approximately) in total CPU time.
+INFO     : Efinix Bitstream Generator virtual memory usage: begin = 34.984 MB, end = 332.648 MB, delta = 297.664 MB
+INFO     : Efinix Bitstream Generator resident set memory usage: begin = 18.868 MB, end = 285.512 MB, delta = 266.644 MB
+INFO     : 	Efinix Bitstream Generator peak resident set memory usage = 290.012 MB

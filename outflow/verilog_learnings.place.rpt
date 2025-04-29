@@ -1,7 +1,7 @@
 
 Efinix FPGA Placement and Routing.
 Version: 2024.2.294 
-Date: Fri Apr 11 12:57:39 2025
+Date: Mon Apr 14 14:40:30 2025
 
 Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
  
@@ -14,22 +14,29 @@ Elapsed time for packing: 0 hours 0 minutes 0 seconds
 Inputs: 9 / 1076 (0.84%)
 Outputs: 2 / 1566 (0.13%)
 Clocks: 2 / 16 (12.50%)
-Logic Elements: 1761 / 112128 (1.57%)
-	LE: LUTs/Adders: 1356 / 112128 (1.21%)
-	LE: Registers: 811 / 107520 (0.75%)
-Memory Blocks: 2 / 1056 (0.19%)
+Logic Elements: 2147 / 112128 (1.91%)
+	LE: LUTs/Adders: 1539 / 112128 (1.37%)
+	LE: Registers: 1090 / 107520 (1.01%)
+Memory Blocks: 9 / 1056 (0.85%)
 Multipliers: 0 / 320 (0.00%)
 ---------- Resource Summary (end) ----------
 
 
 ---------- Memory Block Information (begin) ----------
 
-+-------------------------------------------------------------------------------------+------+------------+-------------+------------+------------+
-|                                        NAME                                         | MODE | READ_WIDTH | WRITE_WIDTH | WRITE_MODE | OUTPUT_REG |
-+-------------------------------------------------------------------------------------+------+------------+-------------+------------+------------+
-| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$1 | SDP  |     5      |      5      | READ_FIRST |   false    |
-| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$2 | SDP  |     5      |      5      | READ_FIRST |   false    |
-+-------------------------------------------------------------------------------------+------+------------+-------------+------------+------------+
++---------------------------------------------------------------------------------------+------+------------+-------------+------------+------------+
+|                                         NAME                                          | MODE | READ_WIDTH | WRITE_WIDTH | WRITE_MODE | OUTPUT_REG |
++---------------------------------------------------------------------------------------+------+------------+-------------+------------+------------+
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$e12 | SDP  |     5      |      5      | READ_FIRST |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$d12 | SDP  |     5      |      5      | READ_FIRST |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$g12 | SDP  |     5      |      5      | READ_FIRST |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b12 | SDP  |     5      |      5      | READ_FIRST |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$f12 | SDP  |     5      |      5      | READ_FIRST |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$12  | SDP  |     5      |      5      | READ_FIRST |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c12 | SDP  |     5      |      5      | READ_FIRST |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$2  | SDP  |     5      |      5      | READ_FIRST |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$h1  | SDP  |     5      |      5      | READ_FIRST |   false    |
++---------------------------------------------------------------------------------------+------+------------+-------------+------------+------------+
 
 ----------- Memory Block Information (end) ----------
 
@@ -46,4 +53,4 @@ Multipliers: 0 / 320 (0.00%)
 
 ----------- IO Interface Summary (end) ----------
 
-Elapsed time for placement: 0 hours 0 minutes 6 seconds
+Elapsed time for placement: 0 hours 0 minutes 7 seconds

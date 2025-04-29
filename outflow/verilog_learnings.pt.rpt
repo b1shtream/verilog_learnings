@@ -1,7 +1,7 @@
 
 Efinity Interface Designer Report
 Version: 2024.2.294
-Date: 2025-04-11 12:57
+Date: 2025-04-14 14:40
 
 Copyright (C) 2013 - 2024 Efinix Inc. All rights reserved.
 
@@ -136,7 +136,7 @@ Input GPIO Configuration:
 | Instance Name | Input Pin | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | DDIO |
 +---------------+-----------+---------------------+-----------------+--------------+-----------------+------+
 |    clk_pll    |           |       clk_pll       |                 |     none     |     Disable     | none |
-|       rx      |     rx    |                     |                 |     none     |     Disable     |      |
+|       rx      |     rx    |                     |                 | weak pullup  |     Disable     |      |
 +---------------+-----------+---------------------+-----------------+--------------+-----------------+------+
 
 Output GPIO Configuration:
@@ -165,35 +165,35 @@ Reference Clock Resource      : GPIOR_166
 Reference Clock               : clk_pll
 Feedback Mode                 : internal
 
-Reference Clock Frequency     : 74.2500 MHz
-Reference Clock Period        : 13.4680 ns
-Multiplier (M)                : 43
-Pre-Divider (N)               : 2
-VCO Frequency                 : 1596.3750 MHz
+Reference Clock Frequency     : 75.2500 MHz
+Reference Clock Period        : 13.2890 ns
+Multiplier (M)                : 85
+Pre-Divider (N)               : 4
+VCO Frequency                 : 1599.0625 MHz
 Post-Divider (O)              : 8
-PLL Frequency                 : 199.5469 MHz
+PLL Frequency                 : 199.8828 MHz
 
 Output Clock 0
 Clock Pin Name                : clk
 Output Divider                : 4
 Output Phase Shift            : 45
-Output Frequency              : 49.8867 MHz
-Output Period                 : 20.045 ns
+Output Frequency              : 49.9707 MHz
+Output Period                 : 20.012 ns
 
 Frequency calculations:
 	VCO = REFCLK * (M/N)
-	    = 74.2500 MHz * (43/2)
-	    = 1596.3750 MHz
+	    = 75.2500 MHz * (85/4)
+	    = 1599.0625 MHz
 	PLL = VCO / O
-	    = 1596.3750 MHz / 8
-	    = 199.5469 MHz
+	    = 1599.0625 MHz / 8
+	    = 199.8828 MHz
 
 	CLKOUT0 = PLL / CLKOUT0_DIV
-	        = 199.5469 MHz / 4
-	        = 49.8867 MHz
+	        = 199.8828 MHz / 4
+	        = 49.9707 MHz
 
 SDC Constraints:
-	create_clock -waveform {2.506 12.528} -period 20.045 -name clk [get_ports {clk}]
+	create_clock -waveform {2.502 12.508} -period 20.012 -name clk [get_ports {clk}]
 
 ---------- PLL Usage Summary (end) ----------
 

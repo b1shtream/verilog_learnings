@@ -3,7 +3,7 @@
         {
             "name": "la0",
             "type": "la",
-            "uuid": "570540761772449599b53d3fd8d74746",
+            "uuid": "9853cb3cffe2482ebfc2644831d2b7b4",
             "trigin_en": false,
             "trigout_en": false,
             "auto_inserted": true,
@@ -19,6 +19,66 @@
                 {
                     "name": "uart_rx_inst/o_Rx_Byte",
                     "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "clk",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "add_flag",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "rx",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "rx_ready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "send",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "result",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "rx_data",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "a",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "b",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "sum",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "carry",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "tx",
+                    "width": 1,
                     "probe_type": 1
                 }
             ]
@@ -212,6 +272,181 @@
                         "path": [
                             "uart_rx_inst"
                         ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "clk",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "add_flag",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4",
+                        "net": "rx",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe5",
+                        "net": "rx_ready",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "send",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7[0]",
+                        "net": "result[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7[1]",
+                        "net": "result[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7[2]",
+                        "net": "result[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7[3]",
+                        "net": "result[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7[4]",
+                        "net": "result[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7[5]",
+                        "net": "result[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7[6]",
+                        "net": "result[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7[7]",
+                        "net": "result[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8[0]",
+                        "net": "rx_data[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8[1]",
+                        "net": "rx_data[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8[2]",
+                        "net": "rx_data[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8[3]",
+                        "net": "rx_data[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8[4]",
+                        "net": "rx_data[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8[5]",
+                        "net": "rx_data[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8[6]",
+                        "net": "rx_data[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8[7]",
+                        "net": "rx_data[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe9[0]",
+                        "net": "a[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe9[1]",
+                        "net": "a[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe9[2]",
+                        "net": "a[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe9[3]",
+                        "net": "a[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe10[0]",
+                        "net": "b[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe10[1]",
+                        "net": "b[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe10[2]",
+                        "net": "b[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe10[3]",
+                        "net": "b[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[0]",
+                        "net": "sum[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[1]",
+                        "net": "sum[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[2]",
+                        "net": "sum[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[3]",
+                        "net": "sum[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe12",
+                        "net": "carry",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13",
+                        "net": "tx",
+                        "path": []
                     }
                 ]
             }
@@ -249,6 +484,112 @@
                     ],
                     "net_idx_left": 7,
                     "net_idx_right": 0
+                },
+                {
+                    "name": "clk",
+                    "width": 1,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "add_flag",
+                    "width": 1,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "rx",
+                    "width": 1,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "rx_ready",
+                    "width": 1,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "send",
+                    "width": 1,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "result",
+                    "width": 8,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "rx_data",
+                    "width": 8,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "a",
+                    "width": 4,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "b",
+                    "width": 4,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "sum",
+                    "width": 4,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "carry",
+                    "width": 1,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "tx",
+                    "width": 1,
+                    "clk_domain": "clk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
                 }
             ],
             "top_module": "adder",

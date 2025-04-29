@@ -1,0 +1,25 @@
+[dumpfile] "/tmp/tmp3ybm4ltn/la0tmp_continous.vcd"
+[dumpfile_mtime] "Sat Apr 12 09:03:04 2025"
+[dumpfile_size] 839
+[savefile] "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 512 1536 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.uart_rx_inst/r_Rx_DV
+top.uart_rx_inst/o_Rx_Byte[7:0]
+top.clk
+top.add_flag
+top.rx
+top.rx_ready
+top.send
+top.result[7:0]
+top.rx_data[7:0]
+top.a[3:0]
+top.b[3:0]
+top.sum[3:0]
+top.carry
+top.tx

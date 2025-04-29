@@ -266,3 +266,143 @@
 // Apr 11, 2025 12:56:47
 ///////////////////////////////////
 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 15:39:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 15:47:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 16:47:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 17:33:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 17:59:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 19:26:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 19:40:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 19:53:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 11, 2025 19:58:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 09:47:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 10:30:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 12:12:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 12:43:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 12:45:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 13:01:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 14:16:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'carry' (VERI-1011) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:35)
+[EFX-0010 VERI-ERROR] module 'adder' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:58)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:181)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:301)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 14:16:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 14:24:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 14:27:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'uart_rx_inst' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:14)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'send' is not permitted (VERI-1100) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:30)
+[EFX-0010 VERI-ERROR] module 'adder' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:55)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:178)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:298)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 14:27:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'uart_rx_inst' (VERI-1137) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:14)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'send' is not permitted (VERI-1100) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:30)
+[EFX-0010 VERI-ERROR] module 'adder' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:55)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:178)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:298)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 12, 2025 14:29:42
+///////////////////////////////////
+

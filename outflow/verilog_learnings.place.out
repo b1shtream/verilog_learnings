@@ -19,11 +19,11 @@ WARNING  : Input/inout port jtag_inst1_DRCK is unconnected and will be removed. 
 WARNING  : Input/inout port jtag_inst1_RUNTEST is unconnected and will be removed. [VDB-8003]
 WARNING  : Input/inout port jtag_inst1_TMS is unconnected and will be removed. [VDB-8003]
 INFO     : Found 3 warnings in the post-synthesis netlist.
-INFO     : VDB Netlist Checker took 0.00769924 seconds.
+INFO     : VDB Netlist Checker took 0.0088955 seconds.
 INFO     : 	VDB Netlist Checker took 0.02 seconds (approximately) in total CPU time.
 INFO     : VDB Netlist Checker virtual memory usage: begin = 200.828 MB, end = 225.44 MB, delta = 24.612 MB
-INFO     : VDB Netlist Checker resident set memory usage: begin = 123.008 MB, end = 123.176 MB, delta = 0.168 MB
-INFO     : 	VDB Netlist Checker peak resident set memory usage = 123.176 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 121.412 MB, end = 121.872 MB, delta = 0.46 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 289.3 MB
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
 INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
@@ -42,38 +42,38 @@ INFO     : Swept away 0 nets and 3 blocks in total.
 INFO     : Removed 0 LUT buffers
 INFO     : Sweept away 3 nodes
 INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.dbg.vdb".
-INFO     : Netlist pre-processing took 0.032599 seconds.
-INFO     : 	Netlist pre-processing took 0.03 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing took 0.0392465 seconds.
+INFO     : 	Netlist pre-processing took 0.04 seconds (approximately) in total CPU time.
 INFO     : Netlist pre-processing virtual memory usage: begin = 200.828 MB, end = 225.44 MB, delta = 24.612 MB
-INFO     : Netlist pre-processing resident set memory usage: begin = 122.344 MB, end = 123.364 MB, delta = 1.02 MB
-INFO     : 	Netlist pre-processing peak resident set memory usage = 123.364 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 120.86 MB, end = 122 MB, delta = 1.14 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 289.3 MB
            ***** Ending stage netlist pre-processing *****
            
            ***** Beginning stage pre-packing ... *****
            ***** Ending stage pre-packing *****
            
            ***** Beginning stage packing ... *****
-INFO     : Generate proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.001498 seconds
+INFO     : Generate proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.00196 seconds
 INFO     : Creating IO constraints file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.io_place'
-INFO     : Packing took 0.0113956 seconds.
-INFO     : 	Packing took 0.01 seconds (approximately) in total CPU time.
+INFO     : Packing took 0.228107 seconds.
+INFO     : 	Packing took 0.02 seconds (approximately) in total CPU time.
 INFO     : Packing virtual memory usage: begin = 225.44 MB, end = 225.44 MB, delta = 0 MB
-INFO     : Packing resident set memory usage: begin = 123.9 MB, end = 124.4 MB, delta = 0.5 MB
-INFO     : 	Packing peak resident set memory usage = 124.4 MB
+INFO     : Packing resident set memory usage: begin = 122.532 MB, end = 122.944 MB, delta = 0.412 MB
+INFO     : 	Packing peak resident set memory usage = 289.3 MB
            ***** Ending stage packing *****
            
 INFO     : Read proto netlist file /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto
-INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.000438 seconds
-INFO     : Setup net and block data structure took 0.031546 seconds
+INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.000554 seconds
+INFO     : Setup net and block data structure took 0.040579 seconds
            ***** Beginning stage packed netlist loading ... *****
 INFO     : Read proto netlist file /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto
-INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.000584 seconds
-INFO     : Setup net and block data structure took 0.025903 seconds
-INFO     : Packed netlist loading took 0.0270386 seconds.
-INFO     : 	Packed netlist loading took 0.02 seconds (approximately) in total CPU time.
+INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.net_proto" took 0.000669 seconds
+INFO     : Setup net and block data structure took 0.033198 seconds
+INFO     : Packed netlist loading took 0.0345721 seconds.
+INFO     : 	Packed netlist loading took 0.03 seconds (approximately) in total CPU time.
 INFO     : Packed netlist loading virtual memory usage: begin = 225.44 MB, end = 225.44 MB, delta = 0 MB
-INFO     : Packed netlist loading resident set memory usage: begin = 124.552 MB, end = 124.68 MB, delta = 0.128 MB
-INFO     : 	Packed netlist loading peak resident set memory usage = 124.68 MB
+INFO     : Packed netlist loading resident set memory usage: begin = 123.256 MB, end = 123.256 MB, delta = 0 MB
+INFO     : 	Packed netlist loading peak resident set memory usage = 289.3 MB
            ***** Ending stage packed netlist loading *****
            
            ***** Beginning stage pre-placement ... *****
@@ -91,6 +91,8 @@ INFO     : Writing IO placement constraints to "/home/trinity/Downloads/efinity/
 INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.io'.
 INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.io_place'.
 WARNING  : Clock source jtag_inst1_TCK does not use a dedicated clock pad, so extra clock insertion delay is added
+WARNING  : Clock input pad, clk, of net, clk, drives both clock buffer and logic. Expect extra clock skew.
+INFO     : The driver, jtag_inst1_RESET, of control net, jtag_inst1_RESET, should be placed at a dedicated control pad location.
            ***** Ending stage initial placement *****
            
            ***** Beginning stage placement ... *****
@@ -100,106 +102,117 @@ INFO     : Starting Global Placer with 6 threads ...
             ----------     -------  --------------     -------
              Iteration       WHPWL Worst Slack (ps) Convergence
             ----------     -------  --------------     -------
-INFO     :           1    25409778            5542         5.2%
-INFO     :           2    26479072            5542         7.6%
-INFO     :           3    28278898            5066         9.5%
-INFO     :           4    22076192            5158        11.6%
-INFO     :           5    10061206            5367        13.0%
-INFO     :           6     4418978            4784        18.2%
-INFO     :           7     3106870            4402        26.6%
-INFO     :           8     2031685            3289        36.7%
-INFO     :           9     1907496            3248        51.3%
-INFO     :          10     1737404            2753        55.4%
-INFO     :          11     1707009            3141        58.5%
-INFO     :          12     1693861            2900        59.6%
-INFO     :          13     1725717            2564        60.9%
-INFO     :          14     1678805            2405        62.3%
-INFO     :          15     1683983            3321        64.2%
-INFO     :          16     1661244            3304        65.3%
-INFO     :          17     1681685            3213        66.1%
-INFO     :          18     1660217            2898        67.1%
-INFO     :          19     1630999            2974        68.7%
-INFO     :          20     1613901            2689        69.9%
-INFO     :          21     1624915            2553        70.5%
-INFO     :          22     1604816            2598        72.6%
-INFO     :          23     1616223            2857        73.4%
-INFO     :          24     1623243            2451        73.4%
-INFO     :          25     1619173            2601        75.3%
-INFO     :          26     1629262            2065        75.3%
-INFO     :          27     1625411            2041        75.6%
-INFO     :          28     1615305            2054        76.6%
-INFO     :          29     1619358            2127        77.6%
-INFO     :          30     1617429            2500        78.2%
-INFO     :          31     1607589            2381        78.5%
-INFO     :          32     1636909            2486        79.0%
-INFO     :          33     1621092            2298        79.8%
-INFO     :          34     1611874            2430        81.6%
-INFO     :          35     1582577            1840        81.6%
-INFO     :          36     1553291            2512        83.4%
-INFO     :          37     1561592            1969        86.0%
-INFO     :          38     1578068             649        86.9%
-INFO     :          39     1596483            1537        88.0%
-INFO     :          40     1597290            1868        88.1%
-INFO     :          41     1609840            2261        88.9%
-INFO     :          42     1613374            2252        89.0%
-INFO     :          43     1601050            2435        90.2%
-INFO     :          44     1626249            1889        90.2%
-INFO     :          45     1626093            1743        91.1%
-INFO     :          46     1618806            1593        91.9%
-INFO     :          47     1637694            1980        91.9%
-INFO     :          48     1636045            2144        92.6%
+INFO     :           1    37729380           15402         5.2%
+INFO     :           2    42097728           15428         6.9%
+INFO     :           3    36756728           15124         8.9%
+INFO     :           4    36111052           15076        10.3%
+INFO     :           5    12986943           15032        12.3%
+INFO     :           6     6338543           15109        17.1%
+INFO     :           7     3487965           14340        27.8%
+INFO     :           8     2854898           14151        44.2%
+INFO     :           9     2657104           12972        48.2%
+INFO     :          10     2407820           13395        53.9%
+INFO     :          11     2364888           13147        55.3%
+INFO     :          12     2357136           13138        56.0%
+INFO     :          13     2339371           12561        58.3%
+INFO     :          14     2341383           12855        58.3%
+INFO     :          15     2301571           13325        60.4%
+INFO     :          16     2258727           13161        61.6%
+INFO     :          17     2212780           11745        63.8%
+INFO     :          18     2210685           12932        64.4%
+INFO     :          19     2182586           12744        65.7%
+INFO     :          20     2145934           11948        67.0%
+INFO     :          21     2132231           12047        68.4%
+INFO     :          22     2125262           11892        69.4%
+INFO     :          23     2117056           12022        70.7%
+INFO     :          24     2106281           13118        71.5%
+INFO     :          25     2099109           12972        73.2%
+INFO     :          26     2097472           12161        73.9%
+INFO     :          27     2107993           12527        74.9%
+INFO     :          28     2058097           12446        77.0%
+INFO     :          29     2056252           11941        77.9%
+INFO     :          30     2062461           12486        78.5%
+INFO     :          31     2042047           12389        79.0%
+INFO     :          32     2012570           12452        80.1%
+INFO     :          33     2011560           12426        80.1%
+INFO     :          34     2007567           12194        81.9%
+INFO     :          35     2012229           12195        81.9%
+INFO     :          36     1994216           11769        82.7%
+INFO     :          37     1990854           11535        83.4%
+INFO     :          38     1980242           11776        84.3%
+INFO     :          39     1986834           11688        85.4%
+INFO     :          40     1970238           11319        86.4%
+INFO     :          41     1985422           11213        87.6%
+INFO     :          42     1973180           10720        88.2%
+INFO     :          43     1992681           10780        88.8%
+INFO     :          44     1991973           11037        89.3%
+INFO     :          45     1993590           11037        90.3%
+INFO     :          46     2007370           11533        90.7%
+INFO     :          47     2010043           11420        91.5%
+INFO     :          48     2009440           10687        92.6%
+INFO     :          49     2029525           10906        92.6%
+INFO     :          50     2017810           11213        93.5%
+INFO     :          51     2011985           11498        93.6%
+INFO     :          52     2026758           11585        94.3%
+INFO     :          53     1982448           10946        94.3%
+INFO     :          54     1988954           10720        95.8%
+INFO     :          55     1992641           11375        97.0%
+INFO     :          56     2004773           11151        97.2%
+INFO     :          57     2004191           11420        97.8%
+INFO     :          58     2009795           11324        97.8%
+INFO     :          59     2013410           10846        98.1%
 INFO     : Starting Annealer
             ----------     -------  --------------     -------
              Iteration       WHPWL  Delay Max (ps)     R Limit
             ----------     -------  --------------     -------
-INFO     :           0       22175            8980        30.0
-INFO     :           1       16675            7711        29.2
-INFO     :           2       12415            7660        28.3
-INFO     :           3       11052            7208        27.1
-INFO     :           4       10664            7148        25.8
-INFO     :           5       10213            6739        24.2
-INFO     :           6        9925            6670        22.8
-INFO     :           7        9634            6503        21.2
-INFO     :           8        9442            6981        19.9
-INFO     :           9        9277            6950        18.5
-INFO     :          10        9037            6715        17.2
-INFO     :          11        8800            6694        16.0
-INFO     :          12        8586            6626        14.9
-INFO     :          13        8643            6919        13.8
-INFO     :          14        8569            7080        12.8
-INFO     :          15        8311            7532        11.8
-INFO     :          16        8261            6938        11.0
-INFO     :          17        8105            7434        10.1
-INFO     :          18        8104            6791         9.4
-INFO     :          19        7977            6696         8.7
-INFO     :          20        7902            6836         8.0
-INFO     :          21        7721            6655         7.4
-INFO     :          22        7595            6818         6.9
-INFO     :          23        7464            7128         6.3
-INFO     :          24        7432            7105         5.8
-INFO     :          25        7313            7350         5.4
-INFO     :          26        7293            7350         5.0
-INFO     :          27        7260            7434         4.5
-INFO     :          28        7217            7359         4.2
-INFO     :          29        7132            7203         3.8
-INFO     :          30        7073            7203         3.5
-INFO     :          31        7063            7203         3.2
-INFO     :          32        6964            7830         2.9
-INFO     : Counted delay computer calls: 51085
+INFO     :           0       28292            8484        30.0
+INFO     :           1       20298           10112        29.5
+INFO     :           2       16087            9897        29.1
+INFO     :           3       14533            9875        28.2
+INFO     :           4       13843            9282        27.4
+INFO     :           5       13013            9515        26.2
+INFO     :           6       12695            9988        25.2
+INFO     :           7       12696            9606        23.9
+INFO     :           8       12569            9007        22.8
+INFO     :           9       12048            8901        21.5
+INFO     :          10       11912           10673        20.3
+INFO     :          11       11614            9261        19.1
+INFO     :          12       11506            8755        17.9
+INFO     :          13       11405            9268        16.7
+INFO     :          14       11205            8574        15.5
+INFO     :          15       11148            9232        14.4
+INFO     :          16       11048            8807        13.4
+INFO     :          17       10974            8685        12.4
+INFO     :          18       10829            8850        11.5
+INFO     :          19       10797            8832        10.6
+INFO     :          20       10731            9667         9.7
+INFO     :          21       10659            9749         9.0
+INFO     :          22       10695            8950         8.2
+INFO     :          23       10600            9308         7.6
+INFO     :          24       10449            9139         6.9
+INFO     :          25       10403            8661         6.4
+INFO     :          26       10427            8464         5.8
+INFO     :          27       10385            8296         5.3
+INFO     :          28       10310            8076         4.9
+INFO     :          29       10235            8382         4.5
+INFO     :          30       10117            8433         4.1
+INFO     :          31       10075            8325         3.7
+INFO     :          32       10106            7708         3.4
+INFO     : Counted delay computer calls: 0
 Generate /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings_after_qp.qdelay
-INFO     : Placement successful: 1763 cells are placed
-INFO     : Peak congestion smeared over 1/4 of the chip is 0.110743 at 0,0
-INFO     : Congestion-weighted HPWL per net: 381.373
+INFO     : Placement successful: 2156 cells are placed
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.127655 at 0,0
+INFO     : Congestion-weighted HPWL per net: 429.354
 INFO     : Post-placement cluster-level checks is successful
 INFO     : Checks is successful
 INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.qplace'.
-INFO     : Finished Realigning Types (339 blocks needed type change)
+INFO     : Finished Realigning Types (360 blocks needed type change)
 INFO     : Completed placement consistency check successfully.
 INFO     : Successfully created FPGA place file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.place'
-INFO     : Placement took 6.70839 seconds.
-INFO     : 	Placement took 9.76 seconds (approximately) in total CPU time.
-INFO     : Placement virtual memory usage: begin = 225.44 MB, end = 662.464 MB, delta = 437.024 MB
-INFO     : Placement resident set memory usage: begin = 125.876 MB, end = 546.64 MB, delta = 420.764 MB
-INFO     : 	Placement peak resident set memory usage = 546.64 MB
+INFO     : Placement took 7.68639 seconds.
+INFO     : 	Placement took 11.22 seconds (approximately) in total CPU time.
+INFO     : Placement virtual memory usage: begin = 225.44 MB, end = 673.712 MB, delta = 448.272 MB
+INFO     : Placement resident set memory usage: begin = 124.372 MB, end = 214.928 MB, delta = 90.556 MB
+INFO     : 	Placement peak resident set memory usage = 542.932 MB
            ***** Ending stage placement *****
            

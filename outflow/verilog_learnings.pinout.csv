@@ -1,7 +1,7 @@
 
 # Efinity Pinout Report
 # Version: 2024.2.294
-# Date: 2025-04-11 12:57
+# Date: 2025-04-14 14:40
 
 # Copyright (C) 2013 - 2024 Efinix Inc. All rights reserved.
 
@@ -38,7 +38,7 @@ B6,MIPI0_TXDP0,,,3A,,,,
 B7,MIPI0_TXDN1,,,3A,,,,
 B8,MIPI0_TXDP2,,,3A,,,,
 B9,GPIOT_RXP29_CLKP2,,,2F,3.3 V,,,User IO/PLL_CLKIN
-B10,GPIOT_RXN28_EXTFB2,rx.RXN,Input,2F,3.3 V,3.3 V LVTTL / LVCMOS,,User IO
+B10,GPIOT_RXN28_EXTFB2,rx.RXN,Input,2F,3.3 V,3.3 V LVTTL / LVCMOS,weak pullup,User IO
 B11,GPIOT_RXN27,,,2F,3.3 V,,,User IO
 B12,GPIOT_RXN24,,,2F,3.3 V,,,User IO
 B13,GPIOT_RXP23,,,2F,3.3 V,,,User IO

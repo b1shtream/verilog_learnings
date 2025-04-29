@@ -1,7 +1,7 @@
 
 Efinix FPGA Placement and Routing.
 Version: 2024.2.294 
-Date: Fri Apr 11 12:57:46 2025
+Date: Mon Apr 14 14:40:38 2025
 
 Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
  
@@ -9,4 +9,4 @@ Family: Trion
 Device: T120F324
 Top-level Entity Name: verilog_learnings
 Elapsed time for routing: 0 hours 0 minutes 3 seconds
-Elapsed time for entire flow: 0 hours 0 minutes 29 seconds
+Elapsed time for entire flow: 0 hours 0 minutes 30 seconds

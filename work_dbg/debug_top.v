@@ -22,7 +22,19 @@ module edb_top (
     output bscan_TDO,
     input  la0_clk,
     input  la0_probe0,
-    input  [7:0] la0_probe1
+    input  [7:0] la0_probe1,
+    input  la0_probe2,
+    input  la0_probe3,
+    input  la0_probe4,
+    input  la0_probe5,
+    input  la0_probe6,
+    input  [7:0] la0_probe7,
+    input  [7:0] la0_probe8,
+    input  [3:0] la0_probe9,
+    input  [3:0] la0_probe10,
+    input  [3:0] la0_probe11,
+    input  la0_probe12,
+    input  la0_probe13
 );
 
     localparam HUB_CS_WIDTH = 15;
@@ -71,18 +83,42 @@ module edb_top (
 
     // debug core instances
     edb_la_top #(
-        .NUM_PROBES         ( 2 ),
+        .NUM_PROBES         ( 14 ),
         .DATA_DEPTH         ( 1024 ),
         .TRIGIN_EN          ( 0 ),
         .TRIGOUT_EN         ( 0 ),
         .INPUT_PIPE_STAGES      ( 1 ),
         .CAPTURE_CONTROL    ( 0 ),
-        .UUID   ( 128'h570540761772449599b53d3fd8d74746 ),
+        .UUID   ( 128'h9853cb3cffe2482ebfc2644831d2b7b4 ),
         .CNDTNL_STRG_EN     ( 0 ),
         .PROBE0_WIDTH       ( 1 ),
         .PROBE0_TYPE        ( 1 ),
         .PROBE1_WIDTH       ( 8 ),
-        .PROBE1_TYPE        ( 1 )
+        .PROBE1_TYPE        ( 1 ),
+        .PROBE2_WIDTH       ( 1 ),
+        .PROBE2_TYPE        ( 1 ),
+        .PROBE3_WIDTH       ( 1 ),
+        .PROBE3_TYPE        ( 1 ),
+        .PROBE4_WIDTH       ( 1 ),
+        .PROBE4_TYPE        ( 1 ),
+        .PROBE5_WIDTH       ( 1 ),
+        .PROBE5_TYPE        ( 1 ),
+        .PROBE6_WIDTH       ( 1 ),
+        .PROBE6_TYPE        ( 1 ),
+        .PROBE7_WIDTH       ( 8 ),
+        .PROBE7_TYPE        ( 1 ),
+        .PROBE8_WIDTH       ( 8 ),
+        .PROBE8_TYPE        ( 1 ),
+        .PROBE9_WIDTH       ( 4 ),
+        .PROBE9_TYPE        ( 1 ),
+        .PROBE10_WIDTH      ( 4 ),
+        .PROBE10_TYPE       ( 1 ),
+        .PROBE11_WIDTH      ( 4 ),
+        .PROBE11_TYPE       ( 1 ),
+        .PROBE12_WIDTH      ( 1 ),
+        .PROBE12_TYPE       ( 1 ),
+        .PROBE13_WIDTH      ( 1 ),
+        .PROBE13_TYPE       ( 1 )
     ) la0 (
         .bscan_CAPTURE                  ( bscan_CAPTURE ),
         .bscan_DRCK                     ( bscan_DRCK ),
@@ -104,7 +140,19 @@ module edb_top (
         .trig_out               (  ),
         .trig_out_ack           ( 1'b0 ),
         .probe0                 ( la0_probe0 ),
-        .probe1                 ( la0_probe1 )
+        .probe1                 ( la0_probe1 ),
+        .probe2                 ( la0_probe2 ),
+        .probe3                 ( la0_probe3 ),
+        .probe4                 ( la0_probe4 ),
+        .probe5                 ( la0_probe5 ),
+        .probe6                 ( la0_probe6 ),
+        .probe7                 ( la0_probe7 ),
+        .probe8                 ( la0_probe8 ),
+        .probe9                 ( la0_probe9 ),
+        .probe10                    ( la0_probe10 ),
+        .probe11                    ( la0_probe11 ),
+        .probe12                    ( la0_probe12 ),
+        .probe13                    ( la0_probe13 )
     );
 
     debug_hub debug_hub_inst (

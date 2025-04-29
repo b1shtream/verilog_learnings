@@ -16,23 +16,23 @@ INFO     : Running Placement and Routing for Family "Trion", Device "T120F324" .
 INFO     : Read ipin pattern from /home/trinity/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xml
 INFO     : Finished parsing ipin pattern file '/home/trinity/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xdb'.
 INFO     : Finished parsing switch_block file '/home/trinity/Downloads/efinity/2024.2/arch/./routing/sb_connectivity_subset.xdb'.
-INFO     : BuildGraph process took 14.112 seconds.
-INFO     : 	BuildGraph process took 13.66 seconds (approximately) in total CPU time.
-INFO     : BuildGraph process virtual memory usage: begin = 662.464 MB, end = 2072.56 MB, delta = 1410.1 MB
-INFO     : BuildGraph process resident set memory usage: begin = 547.212 MB, end = 1980.47 MB, delta = 1433.26 MB
-INFO     : 	BuildGraph process peak resident set memory usage = 1980.47 MB
-INFO     : check rr_graph process took 0.454267 seconds.
+INFO     : BuildGraph process took 13.8707 seconds.
+INFO     : 	BuildGraph process took 13.6 seconds (approximately) in total CPU time.
+INFO     : BuildGraph process virtual memory usage: begin = 673.712 MB, end = 2079.73 MB, delta = 1406.02 MB
+INFO     : BuildGraph process resident set memory usage: begin = 215.9 MB, end = 1989.61 MB, delta = 1773.71 MB
+INFO     : 	BuildGraph process peak resident set memory usage = 1989.61 MB
+INFO     : check rr_graph process took 0.453418 seconds.
 INFO     : 	check rr_graph process took 0.46 seconds (approximately) in total CPU time.
-INFO     : check rr_graph process virtual memory usage: begin = 2280.5 MB, end = 2280.5 MB, delta = 0 MB
-INFO     : check rr_graph process resident set memory usage: begin = 2188.41 MB, end = 2188.54 MB, delta = 0.132 MB
-INFO     : 	check rr_graph process peak resident set memory usage = 2188.54 MB
-INFO     : Generated 6653714 RR nodes and 25232815 RR edges
+INFO     : check rr_graph process virtual memory usage: begin = 2287.66 MB, end = 2287.66 MB, delta = 0 MB
+INFO     : check rr_graph process resident set memory usage: begin = 2197.54 MB, end = 2197.72 MB, delta = 0.184 MB
+INFO     : 	check rr_graph process peak resident set memory usage = 2197.72 MB
+INFO     : Generated 6653808 RR nodes and 25233510 RR edges
 INFO     : This design has 0 global control net(s). See /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.route.rpt for details.
-INFO     : Routing graph took 14.95 seconds.
-INFO     : 	Routing graph took 14.36 seconds (approximately) in total CPU time.
-INFO     : Routing graph virtual memory usage: begin = 662.464 MB, end = 2280.5 MB, delta = 1618.03 MB
-INFO     : Routing graph resident set memory usage: begin = 546.64 MB, end = 2188.68 MB, delta = 1642.04 MB
-INFO     : 	Routing graph peak resident set memory usage = 2188.68 MB
+INFO     : Routing graph took 14.5915 seconds.
+INFO     : 	Routing graph took 14.31 seconds (approximately) in total CPU time.
+INFO     : Routing graph virtual memory usage: begin = 673.712 MB, end = 2287.66 MB, delta = 1613.95 MB
+INFO     : Routing graph resident set memory usage: begin = 214.928 MB, end = 2197.91 MB, delta = 1982.98 MB
+INFO     : 	Routing graph peak resident set memory usage = 2197.91 MB
            ***** Ending stage routing graph generation *****
            
            ***** Beginning stage routing ... *****
@@ -43,25 +43,25 @@ INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were cons
 INFO     :  ---------      -------     --------------      -------------
 INFO     :  Iteration      Overuse     Crit Path (ns)      Calc Time (s)
 INFO     :  ---------      -------     --------------      -------------
-INFO     :          1         5102              7.464              0.941
-INFO     :          2          625              7.599              0.568
-INFO     :          3          145              7.608              0.457
-INFO     :          4            8              7.608              0.221
-INFO     :          5            0              7.608              0.132
+INFO     :          1         6586              8.068                1.2
+INFO     :          2          773              11.31              0.709
+INFO     :          3          158              11.17              0.559
+INFO     :          4            1              11.17               0.28
+INFO     :          5            0              11.17              0.132
            
-INFO     : Successfully routed netlist after 5 routing iterations and 10933066 heapops
+INFO     : Successfully routed netlist after 5 routing iterations and 14639473 heapops
 INFO     : Completed net delay value cross check successfully.
            ***** Beginning stage routing check ... *****
            ***** Ending stage routing check *****
            
-INFO     : Serial number (magic cookie) for the routing is: 923862827
+INFO     : Serial number (magic cookie) for the routing is: 1897701223
 INFO     : Netlist fully routed.
 INFO     : Successfully created FPGA route file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.route'
-INFO     : Routing took 3.16224 seconds.
-INFO     : 	Routing took 3.34 seconds (approximately) in total CPU time.
-INFO     : Routing virtual memory usage: begin = 2280.5 MB, end = 2677.16 MB, delta = 396.664 MB
-INFO     : Routing resident set memory usage: begin = 2188.68 MB, end = 2553.01 MB, delta = 364.332 MB
-INFO     : 	Routing peak resident set memory usage = 2553.16 MB
+INFO     : Routing took 3.74836 seconds.
+INFO     : 	Routing took 3.96 seconds (approximately) in total CPU time.
+INFO     : Routing virtual memory usage: begin = 2287.66 MB, end = 2684.34 MB, delta = 396.672 MB
+INFO     : Routing resident set memory usage: begin = 2197.91 MB, end = 2562.92 MB, delta = 365.008 MB
+INFO     : 	Routing peak resident set memory usage = 2562.92 MB
            ***** Ending stage routing *****
            
            ***** Beginning stage final timing analysis ... *****
@@ -71,39 +71,39 @@ INFO     : SDC file '/home/trinity/Downloads/efinity/2024.2/project/verilog_lear
 INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
 Maximum possible analyzed clocks frequency
  Clock Name  Period (ns)  Frequency (MHz)     Edge
-    clk         7.728        129.400         (R-R)
+    clk         11.287        88.598         (R-R)
 
-Geomean max period: 7.728
+Geomean max period: 11.287
 
 Setup (Max) Clock Relationship
   Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
-      clk              clk             10.400           2.672            (R-R)
+      clk              clk             20.000           8.713            (R-R)
 
 Hold (Min) Clock Relationship
   Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
-      clk              clk             0.000            0.119            (R-R)
+      clk              clk             0.000            0.086            (R-R)
 
 INFO     : Write Timing Report to "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.timing.rpt" ...
-INFO     : final timing analysis took 0.136205 seconds.
-INFO     : 	final timing analysis took 0.12 seconds (approximately) in total CPU time.
-INFO     : final timing analysis virtual memory usage: begin = 2677.16 MB, end = 2677.16 MB, delta = 0 MB
-INFO     : final timing analysis resident set memory usage: begin = 2553.01 MB, end = 2553.43 MB, delta = 0.424 MB
-INFO     : 	final timing analysis peak resident set memory usage = 2553.43 MB
+INFO     : final timing analysis took 0.147773 seconds.
+INFO     : 	final timing analysis took 0.15 seconds (approximately) in total CPU time.
+INFO     : final timing analysis virtual memory usage: begin = 2684.34 MB, end = 2684.34 MB, delta = 0 MB
+INFO     : final timing analysis resident set memory usage: begin = 2562.92 MB, end = 2563.27 MB, delta = 0.348 MB
+INFO     : 	final timing analysis peak resident set memory usage = 2563.27 MB
            ***** Ending stage final timing analysis *****
            
            ***** Beginning stage bitstream generation ... *****
 INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
 INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.interface.csv"
 INFO     : Finished writing bitstream file /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_pnr/verilog_learnings.lbf.
-INFO     : Bitstream generation took 2.60227 seconds.
-INFO     : 	Bitstream generation took 2.3 seconds (approximately) in total CPU time.
-INFO     : Bitstream generation virtual memory usage: begin = 2677.16 MB, end = 2677.16 MB, delta = 0 MB
-INFO     : Bitstream generation resident set memory usage: begin = 2553.43 MB, end = 2554.46 MB, delta = 1.028 MB
-INFO     : 	Bitstream generation peak resident set memory usage = 2554.46 MB
+INFO     : Bitstream generation took 2.6101 seconds.
+INFO     : 	Bitstream generation took 2.26 seconds (approximately) in total CPU time.
+INFO     : Bitstream generation virtual memory usage: begin = 2684.34 MB, end = 2684.34 MB, delta = 0 MB
+INFO     : Bitstream generation resident set memory usage: begin = 2563.27 MB, end = 2564.16 MB, delta = 0.888 MB
+INFO     : 	Bitstream generation peak resident set memory usage = 2564.16 MB
            ***** Ending stage bitstream generation *****
            
-INFO     : The entire flow of EFX_PNR took 29.0499 seconds.
-INFO     : 	The entire flow of EFX_PNR took 31.39 seconds (approximately) in total CPU time.
-INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 109.056 MB, end = 2677.16 MB, delta = 2568.1 MB
-INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 38.844 MB, end = 2553.85 MB, delta = 2515 MB
-INFO     : 	The entire flow of EFX_PNR peak resident set memory usage = 2554.46 MB
+INFO     : The entire flow of EFX_PNR took 30.7161 seconds.
+INFO     : 	The entire flow of EFX_PNR took 33.5 seconds (approximately) in total CPU time.
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 109.056 MB, end = 2684.34 MB, delta = 2575.28 MB
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 36.18 MB, end = 2564.16 MB, delta = 2527.98 MB
+INFO     : 	The entire flow of EFX_PNR peak resident set memory usage = 2564.16 MB

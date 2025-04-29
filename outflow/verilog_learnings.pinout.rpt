@@ -1,7 +1,7 @@
 
 # Efinity Pinout Report
 # Version: 2024.2.294
-# Date: 2025-04-11 12:57
+# Date: 2025-04-14 14:40
 
 # Copyright (C) 2013 - 2024 Efinix Inc. All rights reserved.
 
@@ -42,7 +42,7 @@
 |     B7     |  --UNUSED--  |    MIPI0_TXDN1     |               |                      |                  |      3A     |             |                       |
 |     B8     |  --UNUSED--  |    MIPI0_TXDP2     |               |                      |                  |      3A     |             |                       |
 |     B9     |  --UNUSED--  | GPIOT_RXP29_CLKP2  |               |                      |      3.3 V       |      2F     |             |   User IO/PLL_CLKIN   |
-|    B10     |    rx.RXN    | GPIOT_RXN28_EXTFB2 |     Input     | 3.3 V LVTTL / LVCMOS |      3.3 V       |      2F     |             |        User IO        |
+|    B10     |    rx.RXN    | GPIOT_RXN28_EXTFB2 |     Input     | 3.3 V LVTTL / LVCMOS |      3.3 V       |      2F     | weak pullup |        User IO        |
 |    B11     |  --UNUSED--  |    GPIOT_RXN27     |               |                      |      3.3 V       |      2F     |             |        User IO        |
 |    B12     |  --UNUSED--  |    GPIOT_RXN24     |               |                      |      3.3 V       |      2F     |             |        User IO        |
 |    B13     |  --UNUSED--  |    GPIOT_RXP23     |               |                      |      3.3 V       |      2F     |             |        User IO        |

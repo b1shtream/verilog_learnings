@@ -37,30 +37,34 @@ INFO     : Analyzing Verilog file '/home/trinity/Downloads/efinity/2024.2/projec
 INFO     : Analyzing Verilog file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/full_adder.v' [VERI-1482]
 INFO     : Analyzing Verilog file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v' [VERI-1482]
 INFO     : Analyzing Verilog file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add_gate.v' [VERI-1482]
-INFO     : Analysis took 0.0123793 seconds.
-INFO     : 	Analysis took 0.01 seconds (approximately) in total CPU time.
-INFO     : Analysis virtual memory usage: begin = 120.236 MB, end = 121.26 MB, delta = 1.024 MB
-INFO     : Analysis resident set memory usage: begin = 73.98 MB, end = 74.856 MB, delta = 0.876 MB
-INFO     : 	Analysis peak resident set memory usage = 86.296 MB
+INFO     : Analysis took 0.0124564 seconds.
+INFO     : 	Analysis took 0.02 seconds (approximately) in total CPU time.
+INFO     : Analysis virtual memory usage: begin = 120.24 MB, end = 121.264 MB, delta = 1.024 MB
+INFO     : Analysis resident set memory usage: begin = 76.472 MB, end = 77.508 MB, delta = 1.036 MB
+INFO     : 	Analysis peak resident set memory usage = 361.224 MB
 INFO     : ***** Ending Analysis ... *****
 INFO     : ***** Beginning Elaboration ... *****
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(23): port 'uart_config_data' remains unconnected for this instance [VERI-1927]
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(49): port 'uart_config_data' remains unconnected for this instance [VERI-1927]
-INFO     : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(1): compiling module 'adder' [VERI-1018]
-INFO     : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(54): compiling module 'uart_rx' [VERI-1018]
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(138): expression size 4 truncated to fit in target size 3 [VERI-1209]
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(171): expression size 9 truncated to fit in target size 8 [VERI-1209]
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(74): net 'r_Rx_Byte[8]' does not have a driver [VDB-1002]
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(36): expression size 4 truncated to fit in target size 1 [VERI-1209]
-INFO     : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(175): compiling module 'uart_tx' [VERI-1018]
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(255): expression size 4 truncated to fit in target size 3 [VERI-1209]
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(17): input port 'uart_config_data[31]' remains unconnected for this instance [VDB-1053]
-WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v(44): input port 'uart_config_data[31]' remains unconnected for this instance [VDB-1053]
-INFO     : Elaboration took 0.00731514 seconds.
-INFO     : 	Elaboration took 0.01 seconds (approximately) in total CPU time.
-INFO     : Elaboration virtual memory usage: begin = 121.26 MB, end = 122.284 MB, delta = 1.024 MB
-INFO     : Elaboration resident set memory usage: begin = 74.856 MB, end = 76.832 MB, delta = 1.976 MB
-INFO     : 	Elaboration peak resident set memory usage = 86.296 MB
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(22): port 'uart_config_data' is not connected on this instance [VERI-2435]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(56): port 'uart_config_data' is not connected on this instance [VERI-2435]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(56): port 'o_Tx_Active' remains unconnected for this instance [VERI-1927]
+INFO     : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(1): compiling module 'adder' [VERI-1018]
+INFO     : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(61): compiling module 'uart_rx' [VERI-1018]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(83): using initial value of 'r_config_data' since it is never assigned [VERI-1220]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(146): expression size 4 truncated to fit in target size 3 [VERI-1209]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(179): expression size 9 truncated to fit in target size 8 [VERI-1209]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(81): net 'r_Rx_Byte[8]' does not have a driver [VDB-1002]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(35): expression size 4 truncated to fit in target size 1 [VERI-1209]
+INFO     : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(183): compiling module 'uart_tx' [VERI-1018]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(208): using initial value of 'r_config_data' since it is never assigned [VERI-1220]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(263): expression size 4 truncated to fit in target size 3 [VERI-1209]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(11): net 'sum[3]' does not have a driver [VDB-1002]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(17): input port 'uart_config_data[31]' is not connected on this instance [VDB-1013]
+WARNING  : /home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v(51): input port 'uart_config_data[31]' is not connected on this instance [VDB-1013]
+INFO     : Elaboration took 0.00687562 seconds.
+INFO     : 	Elaboration took 0 seconds (approximately) in total CPU time.
+INFO     : Elaboration virtual memory usage: begin = 121.264 MB, end = 122.288 MB, delta = 1.024 MB
+INFO     : Elaboration resident set memory usage: begin = 77.508 MB, end = 79.228 MB, delta = 1.72 MB
+INFO     : 	Elaboration peak resident set memory usage = 361.224 MB
 INFO     : ***** Ending Elaboration ... *****
 INFO     : ... Setting Synthesis Option: mode=speed
 INFO     : ***** Beginning Reading Mapping Library ... *****
@@ -82,76 +86,97 @@ INFO     : /home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_mapli
 INFO     : /home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
 INFO     : /home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
 INFO     : /home/trinity/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
-INFO     : Reading Mapping Library took 0.00887207 seconds.
+INFO     : Reading Mapping Library took 0.00894286 seconds.
 INFO     : 	Reading Mapping Library took 0.01 seconds (approximately) in total CPU time.
-INFO     : Reading Mapping Library virtual memory usage: begin = 122.284 MB, end = 123.308 MB, delta = 1.024 MB
-INFO     : Reading Mapping Library resident set memory usage: begin = 77.66 MB, end = 77.66 MB, delta = 0 MB
-INFO     : 	Reading Mapping Library peak resident set memory usage = 86.296 MB
+INFO     : Reading Mapping Library virtual memory usage: begin = 122.288 MB, end = 122.288 MB, delta = 0 MB
+INFO     : Reading Mapping Library resident set memory usage: begin = 79.928 MB, end = 79.928 MB, delta = 0 MB
+INFO     : 	Reading Mapping Library peak resident set memory usage = 361.224 MB
 INFO     : ***** Ending Reading Mapping Library ... *****
 INFO     : ... Pre-synthesis checks begin
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/half_adder.v:17) [EFX-0201]
+WARNING  : Removing redundant signal : uart_config_data[31]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[30]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[29]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[28]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[27]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[26]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[25]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[24]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[23]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[22]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[21]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[20]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[19]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[18]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[17]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[16]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[15]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[14]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[13]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : Removing redundant signal : uart_config_data[12]. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:66) [EFX-0200]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0200]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[31]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[30]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[29]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[28]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[27]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[26]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[25]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[24]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[23]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'uart_rx_inst.uart_config_data[22]'. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/add.v:17) [EFX-0201]
 WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0201]
-INFO     : ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... NameSpace init begin
-INFO     : ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Mapping design "adder"
 INFO     : ... Hierarchical pre-synthesis "uart_rx" begin
-INFO     : ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Hierarchical pre-synthesis "uart_tx" begin
-INFO     : ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Hierarchical pre-synthesis "adder" begin
 INFO     : ... Clock Enable Synthesis Performed on 52 flops.
-INFO     : ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... Hierarchical pre-synthesis "adder" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Flat optimizations begin
-INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Flat synthesis begin
-INFO     : ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Flat optimizations begin
-INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Check and break combinational loops begin
-INFO     : ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 86296KB)
+INFO     : ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Sequential Optimization begin
-INFO     : ... Clock Network 'clk' with 111 loads will be considered for sequential optimization.
-INFO     : ... Sequential Optimization deduced 5 equivalent points.
-INFO     : ... Sequential Optimization end (Real time : 3s CPU user time : 3s CPU sys time : 0s MEM : 91364KB)
+INFO     : ... Clock Network 'clk' with 90 loads will be considered for sequential optimization.
+INFO     : ... Sequential Optimization deduced 140 equivalent points.
+INFO     : ... Sequential Optimization end (Real time : 3s CPU user time : 3s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Setup for logic synthesis begin
-INFO     : ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 92172KB)
+INFO     : ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... LUT mapping begin
-INFO     : ... LS, strategy: 3, nd: 236, ed: 768, lv: 5, pw: 329.48
-INFO     : ... LUT mapping end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 124256KB)
+INFO     : ... LS, strategy: 3, nd: 137, ed: 455, lv: 4, pw: 192.91
+INFO     : ... LUT mapping end (Real time : 1s CPU user time : 3s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Post-synthesis Verific netlist creation begin
-INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 124388KB)
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 361224KB)
 INFO     : ... Postmap Retiming Optimization begin
-INFO     : ... Clock Network 'clk~clk' with 110 loads will be considered for retiming optimization.
+INFO     : ... Clock Network 'clk~clk' with 67 loads will be considered for retiming optimization.
 INFO     : ... Performed 0 retime moves.
-INFO     : ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 7s CPU sys time : 0s MEM : 124960KB)
+INFO     : ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 6s CPU sys time : 0s MEM : 361224KB)
 INFO     : ***** Beginning VDB Netlist Checker ... *****
-INFO     : VDB Netlist Checker took 0.00114318 seconds.
+INFO     : VDB Netlist Checker took 0.000742974 seconds.
 INFO     : 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
-INFO     : VDB Netlist Checker virtual memory usage: begin = 223.848 MB, end = 223.848 MB, delta = 0 MB
-INFO     : VDB Netlist Checker resident set memory usage: begin = 125.576 MB, end = 125.576 MB, delta = 0 MB
-INFO     : 	VDB Netlist Checker peak resident set memory usage = 125.576 MB
+INFO     : VDB Netlist Checker virtual memory usage: begin = 219.124 MB, end = 219.124 MB, delta = 0 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 129.32 MB, end = 129.448 MB, delta = 0.128 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 361.224 MB
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : ... Post-Map Verilog Writer begin
 INFO     : Writing netlist 'adder' to Verilog file '/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/outflow/verilog_learnings.map.v' [VDB-1030]
-INFO     : ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 125832KB)
+INFO     : ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 361224KB)
 INFO     : Resource Summary 
 INFO     : =============================== 
-INFO     : EFX_LUT4        : 	237
-INFO     : EFX_FF          : 	110
+INFO     : EFX_LUT4        : 	138
+INFO     : EFX_FF          : 	67
 INFO     : EFX_GBUFCE      : 	1
 INFO     : =============================== 
-INFO     : The entire flow of EFX_MAP took 8.00669 seconds.
-INFO     : 	The entire flow of EFX_MAP took 7.3 seconds (approximately) in total CPU time.
-INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 84.076 MB, end = 223.848 MB, delta = 139.772 MB
-INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 27.432 MB, end = 125.832 MB, delta = 98.4 MB
-INFO     : 	The entire flow of EFX_MAP peak resident set memory usage = 125.832 MB
+INFO     : The entire flow of EFX_MAP took 7.44249 seconds.
+INFO     : 	The entire flow of EFX_MAP took 6.85 seconds (approximately) in total CPU time.
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 84.08 MB, end = 219.124 MB, delta = 135.044 MB
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 30.112 MB, end = 129.704 MB, delta = 99.592 MB
+INFO     : 	The entire flow of EFX_MAP peak resident set memory usage = 361.224 MB

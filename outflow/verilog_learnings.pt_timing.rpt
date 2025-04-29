@@ -1,7 +1,7 @@
 
 Efinity Interface Designer Timing Report
 Version: 2024.2.294
-Date: 2025-04-11 12:57
+Date: 2025-04-14 14:40
 
 Copyright (C) 2013 - 2024 Efinix Inc. All rights reserved.
 
@@ -20,7 +20,7 @@ Timing Model: C4 (final)
 +-------+-------------+-----------------------+
 | Clock | Period (ns) | Phase Shift (degrees) |
 +-------+-------------+-----------------------+
-|  clk  |    20.045   |           45          |
+|  clk  |    20.012   |           45          |
 +-------+-------------+-----------------------+
 
 ---------- PLL Timing Report (end) ----------

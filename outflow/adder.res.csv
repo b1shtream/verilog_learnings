@@ -1,11 +1,11 @@
 sep=\t
 Module Resource Usage Distribution Estimates
-Generated at: Apr 11, 2025 12:57:19
+Generated at: Apr 14, 2025 14:40:08
 
 Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
 
 Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
-adder:adder                                                 	    811(15)	     153(0)	    1201(5)	     2(0)	     0(0)	
- +uart_rx_inst:uart_rx                                      	     50(50)	       0(0)	   152(152)	     0(0)	     0(0)	
- +uart_tx_inst:uart_tx                                      	     45(45)	       0(0)	     93(93)	     0(0)	     0(0)	
- +edb_top_inst:edb_top                                      	   701(701)	   153(153)	   951(951)	     2(2)	     0(0)	
+adder:adder                                                 	   1090(12)	     151(0)	    1386(2)	     9(0)	     0(0)	
+ +uart_rx_inst:uart_rx                                      	     49(49)	       0(0)	   114(114)	     0(0)	     0(0)	
+ +uart_tx_inst:uart_tx                                      	     18(18)	       0(0)	     32(32)	     0(0)	     0(0)	
+ +edb_top_inst:edb_top                                      	 1011(1011)	   151(151)	 1238(1238)	     9(9)	     0(0)	

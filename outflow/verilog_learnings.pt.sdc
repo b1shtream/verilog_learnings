@@ -5,7 +5,7 @@
 
 # Efinity Interface Designer SDC
 # Version: 2024.2.294
-# Date: 2025-04-11 12:57
+# Date: 2025-04-14 14:40
 
 # Copyright (C) 2013 - 2024 Efinix Inc. All rights reserved.
 
@@ -15,7 +15,7 @@
 
 # PLL Constraints
 #################
-create_clock -waveform {2.506 12.528} -period 20.045 -name clk [get_ports {clk}]
+create_clock -waveform {2.502 12.508} -period 20.012 -name clk [get_ports {clk}]
 
 # GPIO Constraints
 ####################

@@ -2,7 +2,7 @@
 <efxpt:periphery design="verilog_learnings" device="T120F324" xmlns:efxpt="http://www.efinixinc.com/peri_device_db" xmlns:efxutil="http://www.efinixinc.com/peri_tool" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_device_db lpf.xsd">
   <!-- Efinity Logical Peripheral File -->
   <!-- Version: 2024.2.294 -->
-  <!-- Date: 2025-04-11 12:57 -->
+  <!-- Date: 2025-04-14 14:40 -->
   <!-- Copyright (C) 2013 - 2024 Efinix Inc. All rights reserved. -->
   <efxpt:sequence size="333">
     <efxpt:instance id="GPIOL_00" index="0" type="gpio"/>
@@ -5922,7 +5922,7 @@
     <efxpt:parameter name="PCR_IN2_SEL" value="BYPASS"/>
     <efxpt:parameter name="PCR_OE2_SEL" value="DISABLE"/>
     <efxpt:parameter name="PCR_OUT2_SEL" value="BYPASS"/>
-    <efxpt:parameter name="PCR_REN2" value="DISABLE"/>
+    <efxpt:parameter name="PCR_REN2" value="ENABLE"/>
     <efxpt:parameter name="PCR_SR2" value="DISABLE"/>
     <efxpt:parameter name="PCR_DESER_BYPASS" value="DISABLE"/>
     <efxpt:parameter name="PCR_DESER_ODD" value="EVEN"/>
@@ -6028,8 +6028,8 @@
     <efxpt:parameter name="PCR_EXTSRC_SEL" value="DISABLE"/>
     <efxpt:parameter name="PCR_IPENABLE" value="ENABLE"/>
     <efxpt:parameter name="PCR_IPEN_PCR_FRZ" value="DISABLE"/>
-    <efxpt:parameter name="PCR_MCOUNTER" value="43"/>
-    <efxpt:parameter name="PCR_NCOUNTER" value="2"/>
+    <efxpt:parameter name="PCR_MCOUNTER" value="85"/>
+    <efxpt:parameter name="PCR_NCOUNTER" value="4"/>
     <efxpt:parameter name="PCR_OCOUNTER" value="8"/>
     <efxpt:parameter name="PCR_OUT_EN0" value="ENABLE"/>
     <efxpt:parameter name="PCR_OUT_EN1" value="DISABLE"/>

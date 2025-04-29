@@ -1,6 +1,6 @@
 Efinity Synthesis report for project edb_top
 Version: 2024.2.294
-Generated at: Apr 11, 2025 12:56:56
+Generated at: Apr 14, 2025 14:39:42
 Copyright (C) 2013 - 2024  All rights reserved.
 
 Top-level Entity Name : edb_top
@@ -24,35 +24,57 @@ File List:
 
 ### ### Report Section Start ### ###
 
-"MEM|SYN-0677" : ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:406)
+"MEM|SYN-0677" : ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v:454)
 
 ### ### EFX_FF CE enables (begin) ### ### ###
-Total number of enable signals: 28
-Total number of FFs with enable signals: 583
+Total number of enable signals: 50
+Total number of FFs with enable signals: 710
 CE signal <ceg_net2>, number of controlling flip flops: 3
-CE signal <la0/n971>, number of controlling flip flops: 21
-CE signal <la0/n1055>, number of controlling flip flops: 64
-CE signal <la0/n1572>, number of controlling flip flops: 64
-CE signal <la0/n1705>, number of controlling flip flops: 22
+CE signal <la0/n1078>, number of controlling flip flops: 64
+CE signal <la0/n994>, number of controlling flip flops: 21
+CE signal <la0/n1595>, number of controlling flip flops: 64
+CE signal <la0/n1728>, number of controlling flip flops: 22
 CE signal <la0/addr_ct_en>, number of controlling flip flops: 25
 CE signal <la0/op_reg_en>, number of controlling flip flops: 4
 CE signal <ceg_net5>, number of controlling flip flops: 6
 CE signal <la0/word_ct_en>, number of controlling flip flops: 16
 CE signal <ceg_net8>, number of controlling flip flops: 64
-CE signal <la0/n2558>, number of controlling flip flops: 3
-CE signal <la0/n3447>, number of controlling flip flops: 3
-CE signal <la0/n3462>, number of controlling flip flops: 8
-CE signal <la0/n3660>, number of controlling flip flops: 8
+CE signal <la0/n2581>, number of controlling flip flops: 3
+CE signal <la0/n3470>, number of controlling flip flops: 3
+CE signal <la0/n3485>, number of controlling flip flops: 8
+CE signal <la0/n3683>, number of controlling flip flops: 8
+CE signal <la0/n4311>, number of controlling flip flops: 3
+CE signal <la0/n5144>, number of controlling flip flops: 3
+CE signal <la0/n5977>, number of controlling flip flops: 3
+CE signal <la0/n6810>, number of controlling flip flops: 3
+CE signal <la0/n7643>, number of controlling flip flops: 3
+CE signal <la0/n8532>, number of controlling flip flops: 3
+CE signal <la0/n8547>, number of controlling flip flops: 8
+CE signal <la0/n8745>, number of controlling flip flops: 8
+CE signal <la0/n9429>, number of controlling flip flops: 3
+CE signal <la0/n9444>, number of controlling flip flops: 8
+CE signal <la0/n9642>, number of controlling flip flops: 8
+CE signal <la0/n10298>, number of controlling flip flops: 3
+CE signal <la0/n10313>, number of controlling flip flops: 4
+CE signal <la0/n10511>, number of controlling flip flops: 4
+CE signal <la0/n11163>, number of controlling flip flops: 3
+CE signal <la0/n11178>, number of controlling flip flops: 4
+CE signal <la0/n11376>, number of controlling flip flops: 4
+CE signal <la0/n12028>, number of controlling flip flops: 3
+CE signal <la0/n12043>, number of controlling flip flops: 4
+CE signal <la0/n12241>, number of controlling flip flops: 4
+CE signal <la0/n12865>, number of controlling flip flops: 3
+CE signal <la0/n13698>, number of controlling flip flops: 3
 CE signal <la0/regsel_ld_en>, number of controlling flip flops: 13
 CE signal <ceg_net11>, number of controlling flip flops: 32
 CE signal <la0/tu_trigger>, number of controlling flip flops: 64
 CE signal <la0/trigger_skipper_n/n468>, number of controlling flip flops: 1
-CE signal <la0/la_biu_inst/n335>, number of controlling flip flops: 11
-CE signal <la0/la_biu_inst/n1248>, number of controlling flip flops: 11
+CE signal <la0/la_biu_inst/n370>, number of controlling flip flops: 11
+CE signal <la0/la_biu_inst/n1318>, number of controlling flip flops: 46
 CE signal <ceg_net18>, number of controlling flip flops: 1
 CE signal <ceg_net24>, number of controlling flip flops: 1
 CE signal <la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 10
-CE signal <la0/la_biu_inst/n1839>, number of controlling flip flops: 10
+CE signal <la0/la_biu_inst/n1909>, number of controlling flip flops: 10
 CE signal <la0/la_biu_inst/fifo_push>, number of controlling flip flops: 10
 CE signal <~ceg_net27>, number of controlling flip flops: 22
 CE signal <debug_hub_inst/n266>, number of controlling flip flops: 4
@@ -61,59 +83,87 @@ CE signal <debug_hub_inst/n95>, number of controlling flip flops: 82
 
 ### ### EFX_FF SR set/reset (begin) ### ### ###
 Total number of set/reset signals: 8
-Total number of FFs with set/reset signals: 606
-SR signal <bscan_RESET>, number of controlling flip flops: 462
-SR signal <la0/n2545>, number of controlling flip flops: 2
+Total number of FFs with set/reset signals: 733
+SR signal <bscan_RESET>, number of controlling flip flops: 554
+SR signal <la0/n2568>, number of controlling flip flops: 2
 SR signal <la0/ts_resetn>, number of controlling flip flops: 65
-SR signal <la0/la_resetn>, number of controlling flip flops: 23
-SR signal <la0/la_biu_inst/n1832>, number of controlling flip flops: 1
-SR signal <la0/n5970>, number of controlling flip flops: 1
+SR signal <la0/la_resetn>, number of controlling flip flops: 58
+SR signal <la0/la_biu_inst/n1902>, number of controlling flip flops: 1
+SR signal <la0/n19936>, number of controlling flip flops: 1
 SR signal <la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 21
-SR signal <la0/la_biu_inst/fifo_with_read_inst/n672>, number of controlling flip flops: 31
+SR signal <la0/la_biu_inst/fifo_with_read_inst/n812>, number of controlling flip flops: 31
 ### ### EFX_FF SR set/reset (end) ### ### ###
 
 ### ### Sequential Elements Trimming Report (begin) ### ### ### 
 FF|OPT : Flip-flop optimization by equivalence checking
-@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5577)" removed instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i25
-@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5516)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5625)" removed instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i5
 FF|OPT : Flip-flop optimization by equivalence checking
-@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4404)" removed instance : la0/dff_339/i1
-@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5516)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
-FF Output: la0/data_from_biu[10](=0)
-FF Output: la0/data_from_biu[11](=0)
-FF Output: la0/data_from_biu[12](=0)
-FF Output: la0/data_from_biu[13](=0)
-FF Output: la0/data_from_biu[14](=0)
-FF Output: la0/data_from_biu[15](=0)
-FF Output: la0/data_from_biu[16](=0)
-FF Output: la0/data_from_biu[17](=0)
-FF Output: la0/data_from_biu[18](=0)
-FF Output: la0/data_from_biu[19](=0)
-FF Output: la0/data_from_biu[20](=0)
-FF Output: la0/data_from_biu[21](=0)
-FF Output: la0/data_from_biu[22](=0)
-FF Output: la0/data_from_biu[23](=0)
-FF Output: la0/data_from_biu[24](=0)
-FF Output: la0/data_from_biu[25](=0)
-FF Output: la0/data_from_biu[26](=0)
-FF Output: la0/data_from_biu[27](=0)
-FF Output: la0/data_from_biu[28](=0)
-FF Output: la0/data_from_biu[29](=0)
-FF Output: la0/data_from_biu[30](=0)
-FF Output: la0/data_from_biu[31](=0)
-FF Output: la0/data_from_biu[32](=0)
-FF Output: la0/data_from_biu[33](=0)
-FF Output: la0/data_from_biu[34](=0)
-FF Output: la0/data_from_biu[35](=0)
-FF Output: la0/data_from_biu[36](=0)
-FF Output: la0/data_from_biu[37](=0)
-FF Output: la0/data_from_biu[38](=0)
-FF Output: la0/data_from_biu[39](=0)
-FF Output: la0/data_from_biu[40](=0)
-FF Output: la0/data_from_biu[41](=0)
-FF Output: la0/data_from_biu[42](=0)
-FF Output: la0/data_from_biu[43](=0)
-FF Output: la0/data_from_biu[44](=0)
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" removed instance : la0/GEN_PROBE[12].genblk7.genblk3.trigger_cu/i6
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5625)" removed instance : la0/GEN_PROBE[12].genblk7.genblk3.trigger_cu/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[12].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" removed instance : la0/GEN_PROBE[6].genblk7.genblk3.trigger_cu/i6
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5625)" removed instance : la0/GEN_PROBE[6].genblk7.genblk3.trigger_cu/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[6].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" removed instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i6
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5625)" removed instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" removed instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i6
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5625)" removed instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" removed instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i6
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5625)" removed instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" removed instance : la0/GEN_PROBE[2].genblk7.genblk3.trigger_cu/i6
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5625)" removed instance : la0/GEN_PROBE[2].genblk7.genblk3.trigger_cu/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[2].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" removed instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i6
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5625)" removed instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i25
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4452)" removed instance : la0/dff_891/i1
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4452)" removed instance : la0/dff_891/i10
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[2].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4452)" removed instance : la0/dff_891/i11
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4452)" removed instance : la0/dff_891/i12
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4452)" removed instance : la0/dff_891/i13
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4452)" removed instance : la0/dff_891/i14
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[6].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4452)" removed instance : la0/dff_891/i43
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[12].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (4452)" removed instance : la0/dff_891/i44
+@ "/home/trinity/Downloads/efinity/2024.2/project/verilog_learnings/work_dbg/debug_top.v (5564)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i5
 FF Output: la0/data_from_biu[45](=0)
 FF Output: la0/data_from_biu[46](=0)
 FF Output: la0/data_from_biu[47](=0)
@@ -150,19 +200,31 @@ FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_wr_pointer[10]~FF(unrea
 
 Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
 ------------------------------------------------------------         ---        ----        ----      ---- ---------
-edb_top:edb_top                                                   701(0)      155(0)      954(0)      2(0)      0(0)
- +la0:edb_la_top(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=12...    615(366)     155(39)    937(604)      2(0)      0(0)
-  +axi_crc_i:edb_adbg_crc32                                       32(32)        0(0)      49(49)      0(0)      0(0)
-  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit(W...        8(8)        0(0)        8(8)      0(0)      0(0)
-  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)      26(26)      0(0)      0(0)
-  +trigger_tu:trigger_unit(WIDTH=32'b010,PIPE=1)                    1(1)        0(0)        1(1)      0(0)      0(0)
-  +trigger_skipper_n:trigger_skipper                              65(65)      63(63)      98(98)      0(0)      0(0)
-  +la_biu_inst:la_biu(CAPTURE_WIDTH=32'b01001)                   124(40)       53(0)     151(80)      2(0)      0(0)
-   +fifo_with_read_inst:fifo_with_read(DATA_WIDTH=32'b01010)      84(64)      53(53)      71(37)      2(0)      0(0)
-    +transcode_write_addr:fifo_address_trancode_unit              10(10)        0(0)      14(14)      0(0)      0(0)
+edb_top:edb_top                                                  1116(0)      152(0)     1243(0)      9(0)      0(0)
+ +la0:edb_la_top_renamed_due_excessive_length_1                1030(591)     152(39)   1217(681)      9(0)      0(0)
+  +axi_crc_i:edb_adbg_crc32                                       32(32)        0(0)      55(55)      0(0)      0(0)
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)      25(25)      0(0)      0(0)
+  +GEN_PROBE[2].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[3].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[4].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[5].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[6].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[7].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)      25(25)      0(0)      0(0)
+  +GEN_PROBE[8].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)      26(26)      0(0)      0(0)
+  +GEN_PROBE[9].genblk7.genblk3.trigger_cu:compare_unit(W...      11(11)        0(0)      15(15)      0(0)      0(0)
+  +GEN_PROBE[10].genblk7.genblk3.trigger_cu:compare_unit(...      11(11)        0(0)      15(15)      0(0)      0(0)
+  +GEN_PROBE[11].genblk7.genblk3.trigger_cu:compare_unit(...      11(11)        0(0)      15(15)      0(0)      0(0)
+  +GEN_PROBE[12].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[13].genblk7.genblk3.trigger_cu:compare_unit(...        8(8)        0(0)        9(9)      0(0)      0(0)
+  +trigger_tu:trigger_unit(WIDTH=32'b01110,PIPE=1)                  1(1)        0(0)        1(1)      0(0)      0(0)
+  +trigger_skipper_n:trigger_skipper                              65(65)      63(63)    104(104)      0(0)      0(0)
+  +la_biu_inst:la_biu(CAPTURE_WIDTH=32'b0101100)                 194(75)       50(0)    188(112)      9(0)      0(0)
+   +fifo_with_read_inst:fifo_with_read(DATA_WIDTH=32'b010...     119(99)      50(50)      76(43)      9(0)      0(0)
+    +transcode_write_addr:fifo_address_trancode_unit              10(10)        0(0)      13(13)      0(0)      0(0)
     +transcode_read_addr:fifo_address_trancode_unit               10(10)        0(0)      20(20)      0(0)      0(0)
-    +simple_dual_port_ram_inst:edb_simple_dual_port_ram(D...        0(0)        0(0)        0(0)      2(2)      0(0)
- +debug_hub_inst:debug_hub                                        86(86)        0(0)      17(17)      0(0)      0(0)
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram(D...        0(0)        0(0)        0(0)      9(9)      0(0)
+ +debug_hub_inst:debug_hub                                        86(86)        0(0)      26(26)      0(0)      0(0)
 
 ### ### Module Resource Usage Distribution Estimates (end) ### ###
 
@@ -171,24 +233,24 @@ edb_top:edb_top                                                   701(0)      15
 
      Clock     Flip-Flops   Memory Ports    Multipliers
      -----     ----------   ------------    -----------
- bscan_TCK            462              0              0
-   la0_clk            239              4              0
+ bscan_TCK            554              0              0
+   la0_clk            562             18              0
 
 ### ### Clock Load Distribution Report (end) ### ###
 
 ### ### Resource Summary (begin) ### ### ### 
-INPUT  PORTS    : 	20
+INPUT  PORTS    : 	55
 OUTPUT PORTS    : 	1
 
-EFX_ADD         : 	155
-EFX_LUT4        : 	954
-   1-2  Inputs  : 	268
-   3    Inputs  : 	213
-   4    Inputs  : 	473
-EFX_FF          : 	701
-EFX_RAM_5K      : 	2
+EFX_ADD         : 	152
+EFX_LUT4        : 	1243
+   1-2  Inputs  : 	308
+   3    Inputs  : 	330
+   4    Inputs  : 	605
+EFX_FF          : 	1116
+EFX_RAM_5K      : 	9
 EFX_GBUFCE      : 	2
 ### ### Resource Summary (end) ### ### ###
 
-Plain synthesis (without verilog dump and post-map checks) time : 22s
-Elapsed synthesis time : 22s
+Plain synthesis (without verilog dump and post-map checks) time : 25s
+Elapsed synthesis time : 26s
