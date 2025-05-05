@@ -1,0 +1,1 @@
+- [https://web.stanford.edu/class/ee183/handouts_win2003/VerilogQuickRef.pdf](https://web.stanford.edu/class/ee183/handouts_win2003/VerilogQuickRef.pdf)
